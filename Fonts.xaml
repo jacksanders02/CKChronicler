@@ -1,0 +1,5 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FontFamily x:Key="MissaleASLunea">pack://application:,,,/CKChronicler;component/Resources/Fonts/#MissaleAS-Lunea</FontFamily>
+    <FontFamily x:Key="Bellefair">pack://application:,,,/CKChronicler;component/Resources/Fonts/#Bellefair Regular</FontFamily>
+</ResourceDictionary>

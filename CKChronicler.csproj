@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Fonts\Missale AS Lunea.otf" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\Fonts\MissaleAS-Lunea.otf" />
+      <Resource Include="Resources\Fonts\MissaleAS-Lunea.otf" />
+      <None Remove="Resources\Images\court_img_001.png" />
+      <Resource Include="Resources\Images\court_img_001.png" />
+      <Resource Include="Resources\Images\banner.png" />
+      <None Remove="Resources\Fonts\Bellefair-Regular.ttf" />
+      <Resource Include="Resources\Fonts\Bellefair-Regular.ttf" />
+    </ItemGroup>
+
+</Project>
