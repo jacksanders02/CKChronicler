@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Printing;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace CKChronicler
 {
@@ -13,9 +16,14 @@ namespace CKChronicler
             InitializeComponent();
         }
 
-        private void StartBtn_OnClick(object sender, RoutedEventArgs e)
+        public void ShowMainMenu()
         {
-            Console.WriteLine("Hello World!");
+            Main.Content = new CKChronicler.MainMenu();
+        }
+
+        public void ShowCreatePage()
+        {
+            Main.Content = new CKChronicler.CreationPage();
         }
     }
 }
