@@ -41,7 +41,7 @@
                    FontSize="64" FontFamily="{StaticResource MissaleASLunea}" Text="CK Chronicler" />
         
         <Button x:Name="StartBtn" ClickMode="Release" Click="StartBtn_OnClick"
-                Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="256" Height="32"
+                Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="312" Height="32"
                 Margin="0 16" FontSize="24">
             
             <!-- Slightly round button corners -->
@@ -51,12 +51,12 @@
                 </Style>
             </Button.Resources>
             
-            CREATE NEW
+            NEW CHRONICLE
             
         </Button>
         
         <Button x:Name="ContBtn" ClickMode="Release" 
-                Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="256" Height="32"
+                Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="312" Height="32"
                 Margin="0 16" FontSize="24">
             
             <Button.Resources>
@@ -65,13 +65,12 @@
                 </Style>
             </Button.Resources>
             
-            LOAD EXISTING
+            CONTINUE A CHRONICLE
         </Button>
         
         <Button x:Name="ViewBtn" ClickMode="Release"
-                Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" 
-                Margin="0 16" Width="256" Height="32"
-                FontSize="24">
+                Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="312" Height="32"
+                Margin="0 16" FontSize="24">
             
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
@@ -79,7 +78,7 @@
                 </Style>
             </Button.Resources>
             
-            VIEW COMPLETED
+            VIEW CHRONICLES
         </Button>
     </Grid>
 </Page>
