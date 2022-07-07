@@ -5,8 +5,53 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:CKChronicler"
       mc:Ignorable="d"
-      Title="CreateChronicle" Height="450" Width="800">
+      Title="CreateChronicle" Height="540" Width="960">
     <Grid>
+        <Grid.Background>#FFFADD</Grid.Background>
         
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*" />
+            <ColumnDefinition Width="26*" />
+            <ColumnDefinition Width="33*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                   Width="700" Height="128" TextAlignment="Center" Padding="0 15 0 0"
+                   Foreground="White" Background="{StaticResource Banner}"
+                   FontSize="64" FontFamily="{StaticResource MissaleASLunea}" Text="INITIAL RULER" />
+        
+        <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
+                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Rank (e.g. Emperor, Caliph):" />
+        <TextBox x:Name="CharRank" Grid.Row="1" Grid.Column="1" Height="28" VerticalContentAlignment="Center" TextChanged="UpdateCharPreviewText"
+                 FontSize="18" FontFamily="{StaticResource Bellefair}"/>
+        
+        <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Full Name:" />
+        <TextBox x:Name="CharName" Grid.Row="2" Grid.Column="1" Height="28" VerticalContentAlignment="Center" TextChanged="UpdateCharPreviewText"
+                 FontSize="18" FontFamily="{StaticResource Bellefair}"/>
+        
+        <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Primary Title:" />
+        <TextBox x:Name="CharTitle" Grid.Row="3" Grid.Column="1" Height="28" VerticalContentAlignment="Center" TextChanged="UpdateCharPreviewText"
+                 FontSize="18" FontFamily="{StaticResource Bellefair}"/>
+        
+        <TextBlock Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Primary Title:" />
+        <TextBox x:Name="Char" Grid.Row="4" Grid.Column="1" Height="28" VerticalContentAlignment="Center"
+                 FontSize="18" FontFamily="{StaticResource Bellefair}"/>
+        
+        
+        <TextBlock x:Name="CharPreview" Grid.Row="1" Grid.Column="2" FontSize="18" FontFamily="{StaticResource MissaleASLunea}" 
+                   TextWrapping="Wrap" TextAlignment="Center" Text="Stadhouder Jan of The Holy Urkian Empire :)"/>
     </Grid>
 </Page>
