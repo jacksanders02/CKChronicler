@@ -3,6 +3,9 @@
     <Style TargetType="Button">
         <Setter Property="Cursor" Value="Hand" />
         <Setter Property="ClickMode" Value="Release" />
+    </Style>
+    
+    <Style TargetType="Button" x:Key="MainButton">
         <Setter Property="Background" Value="#110015" />
         <Setter Property="Foreground" Value="#FFF1BB" />
         <Setter Property="FontFamily" Value="{StaticResource Bellefair}" />
@@ -21,6 +24,40 @@
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter Property="Foreground" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Style TargetType="Button" x:Key="TabButton">
+        <Setter Property="Foreground" Value="White" />
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Path Fill="#830300" Stretch="UniformToFill" Data="M37.3,0.5h111c0,0,111,0,111,0h-0.6c8.3,0.1,
+                            16.3,4.7,20.4,11.8c2.3,3.9,3.4,8.4,4.2,12.9l12.7,73c0,0-147.7,0-147.7,0H0.6c0,0,12.7-73,
+                            12.7-73c0.8-4.5,1.9-9,4.2-12.9c4.1-7,12.2-11.6,20.4-11.8" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+            
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Path Fill="#A65959" Stretch="UniformToFill" Data="M37.3,0.5h111c0,0,111,0,111,0h-0.6c8.3,0.1,
+                                    16.3,4.7,20.4,11.8c2.3,3.9,3.4,8.4,4.2,12.9l12.7,73c0,0-147.7,0-147.7,0H0.6c0,0,12.7-73,
+                                    12.7-73c0.8-4.5,1.9-9,4.2-12.9c4.1-7,12.2-11.6,20.4-11.8" />
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
             </Trigger>
         </Style.Triggers>
     </Style>

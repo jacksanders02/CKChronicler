@@ -35,7 +35,7 @@
                    Foreground="White" Background="{StaticResource Banner}"
                    FontSize="64" FontFamily="{StaticResource MissaleASLunea}" Text="CK Chronicler" />
         
-        <Button x:Name="StartBtn" ClickMode="Release" Click="StartBtn_OnClick"
+        <Button Style="{StaticResource MainButton}" ClickMode="Release" Click="StartBtn_OnClick"
                 Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="312" Height="32"
                 Margin="0 16" FontSize="24">
             
@@ -50,7 +50,7 @@
             
         </Button>
         
-        <Button x:Name="ContBtn" ClickMode="Release" 
+        <Button Style="{StaticResource MainButton}" ClickMode="Release" 
                 Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="312" Height="32"
                 Margin="0 16" FontSize="24">
             
@@ -63,7 +63,7 @@
             CONTINUE A CHRONICLE
         </Button>
         
-        <Button x:Name="ViewBtn" ClickMode="Release"
+        <Button Style="{StaticResource MainButton}" ClickMode="Release"
                 Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="312" Height="32"
                 Margin="0 16" FontSize="24">
             

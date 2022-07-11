@@ -14,23 +14,51 @@
 //   You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+using System.Data;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace CKChronicler;
 
-public partial class CreationPage : Page
-{
-    public CreationPage()
-    {
+public partial class CreationPage : Page {
+    private string _currentButton;
+    public CreationPage() {
+        _currentButton = "DetailsButton";
         InitializeComponent();
     }
 
+    private void TabButton_OnClick(object o, RoutedEventArgs e) {
+        var sender = (Button)o;
 
-    private void UpdateCharPreviewText(object sender, TextChangedEventArgs e) {
-        string rank = CharRank.Text.Length > 0 ? CharRank.Text : "";
-        string name = CharName.Text.Length > 0 ? " " + CharName.Text : "";
-        string title = CharTitle.Text.Length > 0 ? " of " + CharTitle.Text : "";
+        if (_currentButton.Equals(sender.Name)) { return; } // No point wasting processing if already current
+        
+        // Update label of old current button (the tab being navigated away from)
+        var currentLabel = (TextBlock)(FindName(_currentButton + "Label") ?? throw new NoNullAllowedException());
+        string newLabel = currentLabel.Text.TrimStart('<', ' ').TrimEnd(' ', '>');
 
-        CharPreview.Text = $"{rank}{name}{title}";
+        currentLabel.Text = newLabel;
+        
+        _currentButton = sender.Name;
+
+        switch (_currentButton) 
+        {
+            case "DetailsButton":
+                DetailsButtonLabel.Text = "< DETAILS (NAME ETC.) >";
+                CharacterCreateFrame.Content = new CKChronicler.CharDetails();
+                break;
+            
+            case "AttrButton":
+                AttrButtonLabel.Text = "< ATTRIBUTES >";
+                CharacterCreateFrame.Content = new CKChronicler.CharDetails();
+                break;
+                
+            case "TraitsButton":
+                TraitsButtonLabel.Text = "< TRAITS >";
+                CharacterCreateFrame.Content = new CKChronicler.CharDetails();
+                break;
+            
+            default:
+                return;
+        }
     }
 }
