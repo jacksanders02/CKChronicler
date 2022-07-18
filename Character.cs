@@ -1,4 +1,4 @@
-﻿//  CK Chronicler - a Crusader Kings campaign tracker.
+//  CK Chronicler - a Crusader Kings campaign tracker.
 //  Copyright (C) 2022 Jack Sanders
 // 
 //  This program is free software: you can redistribute it and/or modify
@@ -14,22 +14,40 @@
 //   You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+namespace CKChronicler;
 
-namespace CKChronicler
+public class Character
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    
-    public partial class App : Application
+    // NAMING
+    private string rank = "";
+    private string name = "";
+    private string pTitle = "";
+
+    // ATTRIBUTES
+    private int diplo = 0;
+    private int martial = 0;
+    private int steward = 0;
+    private int intrigue = 0;
+    private int learning = 0;
+    private int prowess = 0;
+
+    public void SetRank(string r)
     {
-        public static Character CurrentChar = new Character();
+        rank = r;
+    }
+
+    public void SetName(string n)
+    {
+        name = n;
+    }
+
+    public void SetPTitle(string pt)
+    {
+        pTitle = pt;
+    }
+
+    public string GetFullTitle()
+    {
+        return $"{rank} {name} {(pTitle != "" ? "of " + pTitle : "")}";
     }
 }

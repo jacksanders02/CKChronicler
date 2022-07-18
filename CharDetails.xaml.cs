@@ -8,10 +8,10 @@ public partial class CharDetails : Page {
     }
     
     private void UpdateCharPreviewText(object sender, TextChangedEventArgs e) {
-        string rank = CharRank.Text.Length > 0 ? CharRank.Text : "";
-        string name = CharName.Text.Length > 0 ? " " + CharName.Text : "";
-        string title = CharTitle.Text.Length > 0 ? " of " + CharTitle.Text : "";
+        App.CurrentChar.SetRank(CharRank.Text);
+        App.CurrentChar.SetName(CharName.Text);
+        App.CurrentChar.SetPTitle(CharTitle.Text);
 
-        CharPreview.Text = $"{rank}{name}{title}";
+        CharPreview.Text = App.CurrentChar.GetFullTitle();
     }
 }

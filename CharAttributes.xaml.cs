@@ -1,4 +1,4 @@
-﻿//  CK Chronicler - a Crusader Kings campaign tracker.
+//  CK Chronicler - a Crusader Kings campaign tracker.
 //  Copyright (C) 2022 Jack Sanders
 // 
 //  This program is free software: you can redistribute it and/or modify
@@ -14,22 +14,14 @@
 //   You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+using System.Windows.Controls;
 
-namespace CKChronicler
+namespace CKChronicler;
+
+public partial class CharAttributes : Page
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    
-    public partial class App : Application
+    public CharAttributes()
     {
-        public static Character CurrentChar = new Character();
+        InitializeComponent();
     }
 }
