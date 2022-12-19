@@ -32,7 +32,8 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Background="{TemplateBinding Background}" BorderBrush="#AD8E68" BorderThickness="1">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="White" BorderThickness="1"
+                                    CornerRadius="2">
                                 <Border.Effect>
                                     <DropShadowEffect ShadowDepth="0"
                                                       Color="White"

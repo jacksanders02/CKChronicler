@@ -39,7 +39,7 @@ namespace CKChronicler
 
         public void ShowCreatePage()
         {
-            Main.Content = new CKChronicler.CreationPage();
+            Main.Content = new CKChronicler.CreationPage(this);
         }
     }
 }

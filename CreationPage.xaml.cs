@@ -25,11 +25,13 @@ public partial class CreationPage : Page {
 
     private readonly CharDetails _charDetails;
     private readonly Attributes _attributes;
+    private readonly MainWindow _parentWindow;
     
-    public CreationPage() {
+    public CreationPage(MainWindow pw) {
         _currentButton = "DetailsButton";
         _charDetails = new CharDetails();
         _attributes = new Attributes();
+        _parentWindow = pw;
         InitializeComponent();
         
         CharacterCreateFrame.Content = _charDetails;
@@ -63,5 +65,9 @@ public partial class CreationPage : Page {
             default:
                 return;
         }
+    }
+
+    private void ReturnButton_OnClick(object sender, RoutedEventArgs e) {
+        _parentWindow.ShowMainMenu();
     }
 }

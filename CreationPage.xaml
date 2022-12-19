@@ -22,7 +22,12 @@
             <RowDefinition Height="8*" /> <!-- Frame -->
         </Grid.RowDefinitions>
         
-        <TextBlock Grid.ColumnSpan="99" HorizontalAlignment="Center" VerticalAlignment="Top" 
+        <Button Height="35" Width="90" Style="{StaticResource MainButton}"
+                Click="ReturnButton_OnClick">
+            <TextBlock Text="&lt; Return" FontSize="14"></TextBlock>
+        </Button>
+        
+        <TextBlock Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top" 
                    Width="700" Height="96" TextAlignment="Center" Padding="0 10 0 0"
                    Foreground="White" Background="{StaticResource Banner}"
                    FontSize="48" FontFamily="{StaticResource MissaleASLunea}" Text="INITIAL RULER" />
