@@ -20,7 +20,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="{TemplateBinding Background}" BorderBrush="#FFF1BB" BorderThickness="1">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="#AD8E68" BorderThickness="1">
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
                     </Border>
                 </ControlTemplate>
@@ -29,13 +29,28 @@
         
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="#AD8E68" BorderThickness="1">
+                                <Border.Effect>
+                                    <DropShadowEffect ShadowDepth="0"
+                                                      Color="White"
+                                                      Opacity="1"
+                                                      BlurRadius="15"/>
+                                </Border.Effect>
+                                
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
             </Trigger>
         </Style.Triggers>
     </Style>
     
     <Style TargetType="Button" x:Key="TabButton">
-        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Foreground" Value="#AD8E68" />
         
         <Setter Property="Template">
             <Setter.Value>

@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="CreateChronicle" Height="540" Width="960">
     <Grid>
-        <Grid.Background>#FFFADD</Grid.Background>
+        <Grid.Background>#D6E3E3</Grid.Background>
         
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
