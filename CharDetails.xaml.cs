@@ -16,14 +16,18 @@ public partial class CharDetails : Page {
         _rank = CharRank.Text;
         _name = CharName.Text;
         _title = CharTitle.Text;
+        CharPreview.Text = GetCharDisplayName();
+    }
 
+    public string[] GetCharDetails() {
+        return new string[] { _rank, _name, _title };
+    }
+
+    public string GetCharDisplayName() {
+        // Create spacing if needed, to prevent words being squashed together, and prevent unnecessary spacing
         string rankNameSpacing = _rank.Length > 0 && _name.Length > 0 ? " " : "";
         string nameTitleSpacing = (_name.Length > 0 || _rank.Length > 0) && _title.Length > 0 ? " of " : "";
 
-        CharPreview.Text = $"{_rank}{rankNameSpacing}{_name}{nameTitleSpacing}{_title}";
-    }
-
-    protected string[] GetCharDetails() {
-        return new string[] { _rank, _name, _title };
+        return $"{_rank}{rankNameSpacing}{_name}{nameTitleSpacing}{_title}";
     }
 }
