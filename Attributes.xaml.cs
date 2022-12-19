@@ -12,11 +12,7 @@ public partial class Attributes : Page {
     private void UpdateAttributesText(object sender, TextChangedEventArgs e) {
     }
 
-    public void SetCharName(string charName) {
-        CharName.Text = charName;
-    }
-
-    private void IsNumber(object sender, TextCompositionEventArgs e) {
+    private void IsNumberInput(object sender, TextCompositionEventArgs e) {
         e.Handled =  !InputValidation.IsNumeric(e.Text);
     }
     

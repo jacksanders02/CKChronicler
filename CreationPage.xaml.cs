@@ -57,7 +57,6 @@ public partial class CreationPage : Page {
             
             case "AttrButton":
                 AttrButtonLabel.Text = "< ATTRIBUTES >";
-                _attributes.SetCharName(App.CurrentChar.GetFullTitle());
                 CharacterCreateFrame.Content = _attributes;
                 break;
                 

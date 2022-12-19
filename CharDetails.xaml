@@ -24,23 +24,28 @@
             </Grid.RowDefinitions>
             
             <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
-                       FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Rank (e.g. Emperor, Caliph):" Foreground="#FFE626" />
+                       FontSize="24" FontFamily="{StaticResource Bellefair}" Text="Rank:" Foreground="#829BA5" />
             <TextBox x:Name="CharRank" Grid.Row="0" Grid.Column="1" Height="28" VerticalContentAlignment="Center"
                      TextChanged="UpdateCharPreviewText" FontSize="18" FontFamily="{StaticResource Bellefair}"/>
             
             <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
-                       FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Full Name:" Foreground="#FFE626" />
+                       FontSize="24" FontFamily="{StaticResource Bellefair}" Text="First Name:" Foreground="#829BA5" />
             <TextBox x:Name="CharName" Grid.Row="1" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
                      TextChanged="UpdateCharPreviewText" FontSize="18" FontFamily="{StaticResource Bellefair}"/>
             
             <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
-                       FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Primary Title:" Foreground="#FFE626" />
-            <TextBox x:Name="CharTitle" Grid.Row="2" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+                       FontSize="24" FontFamily="{StaticResource Bellefair}" Text="Dynasty:" Foreground="#829BA5" />
+            <TextBox x:Name="CharDynasty" Grid.Row="2" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+                     TextChanged="UpdateCharPreviewText" FontSize="18" FontFamily="{StaticResource Bellefair}"/>
+            
+            <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                       FontSize="24" FontWeight="Bold" FontFamily="{StaticResource Bellefair}" Text="Primary Title:" Foreground="#829BA5" />
+            <TextBox x:Name="CharTitle" Grid.Row="3" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
                      TextChanged="UpdateCharPreviewText" FontSize="18" FontFamily="{StaticResource Bellefair}"/>
             
             
             <TextBlock x:Name="CharPreview" Grid.Row="0" Grid.Column="2" TextWrapping="Wrap" TextAlignment="Center" 
-                       FontSize="18" FontFamily="{StaticResource MissaleASLunea}" Foreground="#FFE626" />
+                       FontSize="18" FontFamily="{StaticResource MissaleASLunea}" Foreground="#AD8E68" />
         </Grid>
     </Border>
 </Page>

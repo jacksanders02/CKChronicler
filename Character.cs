@@ -21,6 +21,7 @@ public class Character
     // NAMING
     private string _rank = "";
     private string _name = "";
+    private string _dynasty = "";
     private string _pTitle = "";
 
     // ATTRIBUTES
@@ -45,10 +46,15 @@ public class Character
     {
         _pTitle = pt;
     }
+    
+    public void SetDynasty(string d) {
+        _dynasty = d;
+    }
 
     public string GetFullTitle() {
-        string rankNameSpacing = _rank.Length > 0 && _name.Length > 0 ? " " : "";
-        string titleSpacing = (_rank.Length > 0 || _name.Length > 0) && _pTitle.Length > 0 ? " of " : "";
-        return $"{_rank}{rankNameSpacing}{_name}{titleSpacing}{_pTitle}";
+        string nameSpacing = _rank.Length > 0 && _name.Length > 0  ? " " : "";
+        string dynSpacing = (_rank.Length > 0 || _name.Length > 0) && _dynasty.Length > 0 ? " " : "";
+        string titleSpacing = (_rank.Length > 0 || _name.Length > 0 || _dynasty.Length > 0) && _pTitle.Length > 0 ? " of " : "";
+        return $"{_rank}{nameSpacing}{_name}{dynSpacing}{_dynasty}{titleSpacing}{_pTitle}";
     }
 }

@@ -44,7 +44,7 @@
                        Text="TRAITS" />
         </Button>
         
-        <Frame Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Name="CharacterCreateFrame" Background="#830300"
+        <Frame Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Name="CharacterCreateFrame" Background="#141414"
                NavigationUIVisibility="Hidden" Content="" />
     </Grid>
 </Page>
