@@ -19,10 +19,38 @@
       <None Remove="Resources\Fonts\MissaleAS-Lunea.otf" />
       <Resource Include="Resources\Fonts\MissaleAS-Lunea.otf" />
       <None Remove="Resources\Images\court_img_001.png" />
-      <Resource Include="Resources\Images\court_img_001.png" />
-      <Resource Include="Resources\Images\banner.png" />
+      <Resource Include="Resources\Images\court_img_001.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="Resources\Images\banner.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
       <None Remove="Resources\Fonts\Bellefair-Regular.ttf" />
       <Resource Include="Resources\Fonts\Bellefair-Regular.ttf" />
+      <None Remove="Resources\Images\attributes\diplomacy.png" />
+      <Resource Include="Resources\Images\attributes\diplomacy.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resources\Images\attributes\intrigue.png" />
+      <Resource Include="Resources\Images\attributes\intrigue.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resources\Images\attributes\learning.png" />
+      <Resource Include="Resources\Images\attributes\learning.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resources\Images\attributes\martial.png" />
+      <Resource Include="Resources\Images\attributes\martial.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resources\Images\attributes\prowess.png" />
+      <Resource Include="Resources\Images\attributes\prowess.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resources\Images\attributes\stewardship.png" />
+      <Resource Include="Resources\Images\attributes\stewardship.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
     </ItemGroup>
 
 </Project>

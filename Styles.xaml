@@ -5,6 +5,12 @@
         <Setter Property="ClickMode" Value="Release" />
     </Style>
     
+    <Style TargetType="Border" x:Key="TabBorder">
+        <Setter Property="Background" Value="#830300" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Padding" Value="15" />
+    </Style>
+    
     <Style TargetType="Button" x:Key="MainButton">
         <Setter Property="Background" Value="#110015" />
         <Setter Property="Foreground" Value="#FFF1BB" />

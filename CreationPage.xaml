@@ -6,7 +6,6 @@
       xmlns:local="clr-namespace:CKChronicler"
       mc:Ignorable="d"
       Title="CreateChronicle" Height="540" Width="960">
-    
     <Grid>
         <Grid.Background>#FFFADD</Grid.Background>
         
@@ -46,6 +45,6 @@
         </Button>
         
         <Frame Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Name="CharacterCreateFrame" Background="#830300"
-               NavigationUIVisibility="Hidden" Content="" Source="CharDetails.xaml" />
+               NavigationUIVisibility="Hidden" Content="" />
     </Grid>
 </Page>

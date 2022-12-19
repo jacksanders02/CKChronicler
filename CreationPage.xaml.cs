@@ -22,9 +22,17 @@ namespace CKChronicler;
 
 public partial class CreationPage : Page {
     private string _currentButton;
+
+    private readonly CharDetails _charDetails;
+    private readonly Attributes _attributes;
+    
     public CreationPage() {
         _currentButton = "DetailsButton";
+        _charDetails = new CharDetails();
+        _attributes = new Attributes();
         InitializeComponent();
+        
+        CharacterCreateFrame.Content = _charDetails;
     }
 
     private void TabButton_OnClick(object o, RoutedEventArgs e) {
@@ -44,12 +52,13 @@ public partial class CreationPage : Page {
         {
             case "DetailsButton":
                 DetailsButtonLabel.Text = "< DETAILS (NAME ETC.) >";
-                CharacterCreateFrame.Content = new CKChronicler.CharDetails();
+                CharacterCreateFrame.Content = _charDetails;
                 break;
             
             case "AttrButton":
                 AttrButtonLabel.Text = "< ATTRIBUTES >";
-                CharacterCreateFrame.Content = new CKChronicler.CharDetails();
+                _attributes.SetCharName(_charDetails.GetCharDisplayName());
+                CharacterCreateFrame.Content = _attributes;
                 break;
                 
             case "TraitsButton":

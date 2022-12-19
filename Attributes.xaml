@@ -1,0 +1,149 @@
+﻿<Page x:Class="CKChronicler.Attributes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:CKChronicler"
+      mc:Ignorable="d"
+      Title="CharName" Height="450" Width="800">
+    
+    <Border Style="{StaticResource TabBorder}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="48*" />
+                <ColumnDefinition Width="33*" />
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22*" />
+                    <ColumnDefinition Width="26*" />
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="3*" /> <!-- Empty spacing -->
+                </Grid.RowDefinitions>
+                
+                <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
+                           FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Diplomacy:" Foreground="#FFE626" />
+                <TextBox x:Name="Diplomacy" Grid.Row="0" Grid.Column="1" Height="28" VerticalContentAlignment="Center"
+                         TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
+                         PreviewTextInput="IsNumber" DataObject.Pasting="IsNumberPasted">
+                    <TextBox.Template>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Grid>
+                                <TextBox Text="{TemplateBinding Text}" MaxLength="3" VerticalContentAlignment="Center"/>
+                                <Image Margin="0,0,5,0" 
+                                       Source="Resources/Images/attributes/diplomacy.png" 
+                                       HorizontalAlignment="Right"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </TextBox.Template>
+                </TextBox>
+                
+                <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
+                           FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Martial:" Foreground="#FFE626" />
+                <TextBox x:Name="Martial" Grid.Row="1" Grid.Column="1" Height="28" VerticalContentAlignment="Center"
+                         TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
+                         PreviewTextInput="IsNumber" DataObject.Pasting="IsNumberPasted">
+                    <TextBox.Template>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Grid>
+                                <TextBox Text="{TemplateBinding Text}" MaxLength="3" VerticalContentAlignment="Center"/>
+                                <Image Margin="0,0,5,0" 
+                                       Source="Resources/Images/attributes/martial.png" 
+                                       HorizontalAlignment="Right"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </TextBox.Template>
+                </TextBox>
+                
+                <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                           FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Stewardship:" Foreground="#FFE626" />
+                <TextBox x:Name="Stewardship" Grid.Row="2" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+                         TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
+                         PreviewTextInput="IsNumber" DataObject.Pasting="IsNumberPasted">
+                    <TextBox.Template>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Grid>
+                                <TextBox Text="{TemplateBinding Text}" MaxLength="3" VerticalContentAlignment="Center"/>
+                                <Image Margin="0,0,5,0" 
+                                       Source="Resources/Images/attributes/stewardship.png" 
+                                       HorizontalAlignment="Right"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </TextBox.Template>
+                </TextBox>
+                
+                <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                           FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Intrigue:" Foreground="#FFE626" />
+                <TextBox x:Name="Intrigue" Grid.Row="3" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+                         TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
+                         PreviewTextInput="IsNumber" DataObject.Pasting="IsNumberPasted">
+                    <TextBox.Template>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Grid>
+                                <TextBox Text="{TemplateBinding Text}" MaxLength="3" VerticalContentAlignment="Center"/>
+                                <Image Margin="0,0,5,0" 
+                                       Source="Resources/Images/attributes/intrigue.png" 
+                                       HorizontalAlignment="Right"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </TextBox.Template>
+                </TextBox>
+                
+                <TextBlock Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                           FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Learning:" Foreground="#FFE626" />
+                <TextBox x:Name="Learning" Grid.Row="4" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+                         TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
+                         PreviewTextInput="IsNumber" DataObject.Pasting="IsNumberPasted">
+                    <TextBox.Template>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Grid>
+                                <TextBox Text="{TemplateBinding Text}" MaxLength="3" VerticalContentAlignment="Center"/>
+                                <Image Margin="0,0,5,0" 
+                                       Source="Resources/Images/attributes/learning.png" 
+                                       HorizontalAlignment="Right"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </TextBox.Template>
+                </TextBox>
+                
+                <TextBlock Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                           FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Prowess:" Foreground="#FFE626" />
+                <TextBox x:Name="Prowess" Grid.Row="5" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+                         TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
+                         PreviewTextInput="IsNumber" DataObject.Pasting="IsNumberPasted">
+                    <TextBox.Template>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Grid>
+                                <TextBox Text="{TemplateBinding Text}" MaxLength="3" VerticalContentAlignment="Center"/>
+                                <Image Margin="0,0,5,0" 
+                                       Source="Resources/Images/attributes/prowess.png" 
+                                       HorizontalAlignment="Right"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </TextBox.Template>
+                </TextBox>
+            </Grid>
+            
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="5*" /> <!-- Empty spacing -->
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="CharName" Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" 
+                           FontSize="18" FontFamily="{StaticResource MissaleASLunea}" Foreground="#FFE626" />
+            </Grid>
+        </Grid>
+    </Border>
+</Page>
