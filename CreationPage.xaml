@@ -11,9 +11,8 @@
         
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="3*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         
@@ -33,18 +32,13 @@
             <TextBlock x:Name="DetailsButtonLabel" FontFamily="{StaticResource MissaleASLunea}" FontSize="16"
                        Text="&lt; DETAILS (NAME ETC.) &gt;" />
         </Button>
-        <Button x:Name="AttrButton" Style="{StaticResource TabButton}" Grid.Row="1" Grid.Column="2" Margin="0 0 0 -1"
-                Click="TabButton_OnClick">
-            <TextBlock x:Name="AttrButtonLabel" FontFamily="{StaticResource MissaleASLunea}" FontSize="16"
-                       Text="BASE ATTRIBUTES" />
-        </Button>
-        <Button x:Name="TraitsButton" Style="{StaticResource TabButton}" Grid.Row="1" Grid.Column="3" Margin="0 0 0 -1"
+        <Button x:Name="TraitsButton" Style="{StaticResource TabButton}" Grid.Row="1" Grid.Column="2" Margin="0 0 0 -1"
                 Click="TabButton_OnClick">
             <TextBlock x:Name="TraitsButtonLabel" FontFamily="{StaticResource MissaleASLunea}" FontSize="16"
                        Text="TRAITS" />
         </Button>
         
-        <Frame Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Name="CharacterCreateFrame" Background="#141414"
+        <Frame Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" Name="CharacterCreateFrame" Background="#141414"
                NavigationUIVisibility="Hidden" Content="" />
     </Grid>
 </Page>

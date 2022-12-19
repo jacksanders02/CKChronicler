@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:CKChronicler"
       mc:Ignorable="d"
-      Title="CharName" Height="450" Width="800">
+      Title="CharName">
     
     <Border Style="{StaticResource TabBorder}">
         <Grid>
@@ -43,8 +43,10 @@
             <TextBox x:Name="CharTitle" Grid.Row="3" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
                      TextChanged="UpdateCharPreviewText" FontSize="18" FontFamily="{StaticResource Bellefair}"/>
             
+            <Frame Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Source="Attributes.xaml"></Frame>
             
-            <TextBlock x:Name="CharPreview" Grid.Row="0" Grid.Column="2" TextWrapping="Wrap" TextAlignment="Center" 
+            
+            <TextBlock x:Name="CharPreview" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" TextWrapping="Wrap" TextAlignment="Center" 
                        FontSize="18" FontFamily="{StaticResource MissaleASLunea}" Foreground="#AD8E68" />
         </Grid>
     </Border>

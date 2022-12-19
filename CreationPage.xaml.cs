@@ -54,11 +54,6 @@ public partial class CreationPage : Page {
                 DetailsButtonLabel.Text = "< DETAILS (NAME ETC.) >";
                 CharacterCreateFrame.Content = _charDetails;
                 break;
-            
-            case "AttrButton":
-                AttrButtonLabel.Text = "< ATTRIBUTES >";
-                CharacterCreateFrame.Content = _attributes;
-                break;
                 
             case "TraitsButton":
                 TraitsButtonLabel.Text = "< TRAITS >";

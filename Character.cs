@@ -54,7 +54,7 @@ public class Character
     public string GetFullTitle() {
         string nameSpacing = _rank.Length > 0 && _name.Length > 0  ? " " : "";
         string dynSpacing = (_rank.Length > 0 || _name.Length > 0) && _dynasty.Length > 0 ? " " : "";
-        string titleSpacing = (_rank.Length > 0 || _name.Length > 0 || _dynasty.Length > 0) && _pTitle.Length > 0 ? " of " : "";
+        string titleSpacing = (_rank.Length > 0 || _name.Length > 0 || _dynasty.Length > 0) && _pTitle.Length > 0 ? " of\x00A0" : "";
         return $"{_rank}{nameSpacing}{_name}{dynSpacing}{_dynasty}{titleSpacing}{_pTitle}";
     }
 }

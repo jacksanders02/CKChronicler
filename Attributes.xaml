@@ -5,26 +5,24 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:CKChronicler"
       mc:Ignorable="d"
-      Title="CharName" Height="450" Width="800">
+      Title="CharName">
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="22*" />
-            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="3*" /> <!-- Empty spacing -->
         </Grid.RowDefinitions>
         
         <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
-                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Diplomacy:" Foreground="#FFE626" />
+                   FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Diplomacy:" Foreground="#829BA5" />
         <TextBox x:Name="Diplomacy" Grid.Row="0" Grid.Column="1" Height="28" VerticalContentAlignment="Center"
                  TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
                  PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted">
@@ -41,7 +39,7 @@
         </TextBox>
         
         <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
-                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Martial:" Foreground="#FFE626" />
+                   FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Martial:" Foreground="#829BA5" />
         <TextBox x:Name="Martial" Grid.Row="1" Grid.Column="1" Height="28" VerticalContentAlignment="Center"
                  TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
                  PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted">
@@ -58,7 +56,7 @@
         </TextBox>
         
         <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
-                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Stewardship:" Foreground="#FFE626" />
+                   FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Stewardship:" Foreground="#829BA5" />
         <TextBox x:Name="Stewardship" Grid.Row="2" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
                  TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
                  PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted">
@@ -74,9 +72,9 @@
             </TextBox.Template>
         </TextBox>
         
-        <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
-                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Intrigue:" Foreground="#FFE626" />
-        <TextBox x:Name="Intrigue" Grid.Row="3" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+        <TextBlock Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                   FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Intrigue:" Foreground="#829BA5" />
+        <TextBox x:Name="Intrigue" Grid.Row="0" Grid.Column="3" Height="28" VerticalContentAlignment="Center" 
                  TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
                  PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted">
             <TextBox.Template>
@@ -91,9 +89,9 @@
             </TextBox.Template>
         </TextBox>
         
-        <TextBlock Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
-                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Learning:" Foreground="#FFE626" />
-        <TextBox x:Name="Learning" Grid.Row="4" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+        <TextBlock Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                   FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Learning:" Foreground="#829BA5" />
+        <TextBox x:Name="Learning" Grid.Row="1" Grid.Column="3" Height="28" VerticalContentAlignment="Center" 
                  TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
                  PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted">
             <TextBox.Template>
@@ -108,9 +106,9 @@
             </TextBox.Template>
         </TextBox>
         
-        <TextBlock Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
-                   FontSize="18" FontFamily="{StaticResource Bellefair}" Text="Prowess:" Foreground="#FFE626" />
-        <TextBox x:Name="Prowess" Grid.Row="5" Grid.Column="1" Height="28" VerticalContentAlignment="Center" 
+        <TextBlock Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                   FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Prowess:" Foreground="#829BA5" />
+        <TextBox x:Name="Prowess" Grid.Row="2" Grid.Column="3" Height="28" VerticalContentAlignment="Center" 
                  TextChanged="UpdateAttributesText" FontSize="18" FontFamily="{StaticResource Bellefair}"
                  PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted">
             <TextBox.Template>
