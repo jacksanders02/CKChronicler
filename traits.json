@@ -1,7 +1,7 @@
 [
     {
         "name": "Melancholic",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1c/Trait_depressed.png/60px-Trait_depressed.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1c/Trait_depressed.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -43,7 +43,7 @@
     },
     {
         "name": "Lunatic",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/d9/Trait_lunatic.png/60px-Trait_lunatic.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/d9/Trait_lunatic.png",
         "effects": [
             {
                 "effected_attr": "Hostile scheme resistance",
@@ -90,7 +90,7 @@
     },
     {
         "name": "Possessed",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/08/Trait_possessed.png/60px-Trait_possessed.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/08/Trait_possessed.png",
         "effects": [
             {
                 "effected_attr": "Monthly learning lifestyle experience",
@@ -117,7 +117,7 @@
     },
     {
         "name": "Fecund",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/72/Trait_fecund.png/60px-Trait_fecund.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/72/Trait_fecund.png",
         "effects": [
             {
                 "effected_attr": "Fertility",
@@ -134,7 +134,7 @@
     },
     {
         "name": "Albino",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/bb/Trait_albino.png/60px-Trait_albino.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/bb/Trait_albino.png",
         "effects": [
             {
                 "effected_attr": "Natural dread",
@@ -156,7 +156,7 @@
     },
     {
         "name": "Lisping",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b3/Trait_lisping.png/60px-Trait_lisping.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b3/Trait_lisping.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -178,7 +178,7 @@
     },
     {
         "name": "Stuttering",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/9b/Trait_stuttering.png/60px-Trait_stuttering.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/9b/Trait_stuttering.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -195,7 +195,7 @@
     },
     {
         "name": "Pure-blooded",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/d4/Trait_pure_blooded.png/60px-Trait_pure_blooded.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/d4/Trait_pure_blooded.png",
         "effects": [
             {
                 "effected_attr": "Fertility",
@@ -217,7 +217,7 @@
     },
     {
         "name": "Giant",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/99/Trait_giant.png/60px-Trait_giant.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/99/Trait_giant.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -254,7 +254,7 @@
     },
     {
         "name": "Scaly",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/72/Trait_scaly.png/60px-Trait_scaly.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/72/Trait_scaly.png",
         "effects": [
             {
                 "effected_attr": "Natural dread",
@@ -286,7 +286,7 @@
     },
     {
         "name": "Club-footed",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4f/Trait_clubfooted.png/60px-Trait_clubfooted.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4f/Trait_clubfooted.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -308,7 +308,7 @@
     },
     {
         "name": "Dwarf",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/cc/Trait_dwarf.png/60px-Trait_dwarf.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/cc/Trait_dwarf.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -330,7 +330,7 @@
     },
     {
         "name": "Hunchbacked",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/df/Trait_hunchbacked.png/60px-Trait_hunchbacked.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/df/Trait_hunchbacked.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -357,7 +357,7 @@
     },
     {
         "name": "Sterile / Barren",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/ae/Trait_infertile.png/60px-Trait_infertile.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/ae/Trait_infertile.png",
         "effects": [
             {
                 "effected_attr": "Fertility",
@@ -369,7 +369,7 @@
     },
     {
         "name": "Wheezing",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/7f/Trait_wheezing.png/60px-Trait_wheezing.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/7f/Trait_wheezing.png",
         "effects": [
             {
                 "effected_attr": "Vassal opinion",
@@ -386,7 +386,7 @@
     },
     {
         "name": "Spindly",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/3f/Trait_spindly.png/60px-Trait_spindly.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/3f/Trait_spindly.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -408,7 +408,7 @@
     },
     {
         "name": "Bleeder",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/36/Trait_bleeder.png/60px-Trait_bleeder.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/36/Trait_bleeder.png",
         "effects": [
             {
                 "effected_attr": "Vassal opinion",
@@ -425,7 +425,7 @@
     },
     {
         "name": "Shrewd",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f9/Trait_shrewd.png/60px-Trait_shrewd.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f9/Trait_shrewd.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -457,7 +457,7 @@
     },
     {
         "name": "Strong",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c2/Trait_strong.png/60px-Trait_strong.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c2/Trait_strong.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -474,7 +474,7 @@
     },
     {
         "name": "Scarred",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/25/Trait_scarred.png/60px-Trait_scarred.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/25/Trait_scarred.png",
         "effects": [
             {
                 "effected_attr": "Monthly prestige",
@@ -491,7 +491,7 @@
     },
     {
         "name": "One-Eyed",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/46/Trait_one_eyed.png/60px-Trait_one_eyed.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/46/Trait_one_eyed.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -523,7 +523,7 @@
     },
     {
         "name": "One-Legged",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/ff/Trait_one_legged.png/60px-Trait_one_legged.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/ff/Trait_one_legged.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -555,7 +555,7 @@
     },
     {
         "name": "Disfigured",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/38/Trait_disfigured.png/60px-Trait_disfigured.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/38/Trait_disfigured.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -587,7 +587,7 @@
     },
     {
         "name": "Weak",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f7/Trait_weak.png/60px-Trait_weak.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f7/Trait_weak.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -614,7 +614,7 @@
     },
     {
         "name": "Dull",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/00/Trait_dull.png/60px-Trait_dull.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/00/Trait_dull.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -646,7 +646,7 @@
     },
     {
         "name": "Eunuch",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/7c/Trait_eunuch.png/60px-Trait_eunuch.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/7c/Trait_eunuch.png",
         "effects": [
             {
                 "effected_attr": "Attraction opinion",
@@ -673,7 +673,7 @@
     },
     {
         "name": "August",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/02/Trait_august.png/60px-Trait_august.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/02/Trait_august.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -695,7 +695,7 @@
     },
     {
         "name": "Diplomat",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b0/Trait_diplomat.png/60px-Trait_diplomat.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b0/Trait_diplomat.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -717,7 +717,7 @@
     },
     {
         "name": "Patriarch / Matriarch",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/10/Trait_family_first.png/60px-Trait_family_first.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/10/Trait_family_first.png",
         "effects": [
             {
                 "effected_attr": "House opinion",
@@ -744,7 +744,7 @@
     },
     {
         "name": "Gallant",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8c/Trait_gallant.png/60px-Trait_gallant.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8c/Trait_gallant.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -771,7 +771,7 @@
     },
     {
         "name": "Overseer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/eb/Trait_overseer.png/60px-Trait_overseer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/eb/Trait_overseer.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -793,7 +793,7 @@
     },
     {
         "name": "Strategist",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b6/Trait_strategist.png/60px-Trait_strategist.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b6/Trait_strategist.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -820,7 +820,7 @@
     },
     {
         "name": "Administrator",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/de/Trait_administrator.png/60px-Trait_administrator.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/de/Trait_administrator.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -842,7 +842,7 @@
     },
     {
         "name": "Architect",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/6c/Trait_architect.png/60px-Trait_architect.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/6c/Trait_architect.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -864,7 +864,7 @@
     },
     {
         "name": "Avaricious",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/57/Trait_avaricious.png/60px-Trait_avaricious.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/57/Trait_avaricious.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -881,7 +881,7 @@
     },
     {
         "name": "Schemer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/0b/Trait_schemer.png/60px-Trait_schemer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/0b/Trait_schemer.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -898,7 +898,7 @@
     },
     {
         "name": "Seducer / Seductress",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/43/Trait_seducer.png/60px-Trait_seducer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/43/Trait_seducer.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -920,7 +920,7 @@
     },
     {
         "name": "Torturer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/81/Trait_torturer.png/60px-Trait_torturer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/81/Trait_torturer.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -947,7 +947,7 @@
     },
     {
         "name": "Scholar",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/d5/Trait_scholar.png/60px-Trait_scholar.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/d5/Trait_scholar.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -974,7 +974,7 @@
     },
     {
         "name": "Theologian",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/5c/Trait_theologian.png/60px-Trait_theologian.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/5c/Trait_theologian.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -991,7 +991,7 @@
     },
     {
         "name": "Whole of Body",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/59/Trait_whole_of_body.png/60px-Trait_whole_of_body.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/59/Trait_whole_of_body.png",
         "effects": [
             {
                 "effected_attr": "Fertility",
@@ -1013,7 +1013,7 @@
     },
     {
         "name": "Celibate",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/a2/Trait_celibate.png/60px-Trait_celibate.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/a2/Trait_celibate.png",
         "effects": [
             {
                 "effected_attr": "Monthly piety",
@@ -1040,7 +1040,7 @@
     },
     {
         "name": "Herbalist",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f0/Lifestyle_herbalist.png/60px-Lifestyle_herbalist.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f0/Lifestyle_herbalist.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -1062,7 +1062,7 @@
     },
     {
         "name": "Gardener",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/67/Trait_gardener.png/60px-Trait_gardener.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/67/Trait_gardener.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -1084,7 +1084,7 @@
     },
     {
         "name": "Aggressive Attacker",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f8/Trait_aggressive_attacker.png/60px-Trait_aggressive_attacker.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f8/Trait_aggressive_attacker.png",
         "effects": [
             {
                 "effected_attr": "Enemy fatal casualties",
@@ -1096,7 +1096,7 @@
     },
     {
         "name": "Flexible leader",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/36/Trait_flexible_leader.png/60px-Trait_flexible_leader.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/36/Trait_flexible_leader.png",
         "effects": [
             {
                 "effected_attr": "Enemy defensive advantage",
@@ -1108,7 +1108,7 @@
     },
     {
         "name": "Forder",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/87/Trait_forder.png/60px-Trait_forder.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/87/Trait_forder.png",
         "effects": [
             {
                 "effected_attr": "Crosses rivers & straits without advantage penalties",
@@ -1120,7 +1120,7 @@
     },
     {
         "name": "Holy Warrior",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/54/Trait_holy_warrior.png/60px-Trait_holy_warrior.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/54/Trait_holy_warrior.png",
         "effects": [
             {
                 "effected_attr": "Faith hostility advantage",
@@ -1132,7 +1132,7 @@
     },
     {
         "name": "Logistician",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b4/Trait_logistician.png/60px-Trait_logistician.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b4/Trait_logistician.png",
         "effects": [
             {
                 "effected_attr": "Supply duration",
@@ -1144,7 +1144,7 @@
     },
     {
         "name": "Military Engineer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/26/Trait_military_engineer.png/60px-Trait_military_engineer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/26/Trait_military_engineer.png",
         "effects": [
             {
                 "effected_attr": "Siege phase time",
@@ -1156,7 +1156,7 @@
     },
     {
         "name": "Organizer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/dd/Trait_organizer.png/60px-Trait_organizer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/dd/Trait_organizer.png",
         "effects": [
             {
                 "effected_attr": "Movement speed",
@@ -1173,7 +1173,7 @@
     },
     {
         "name": "Reaver",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/38/Trait_reaver.png/60px-Trait_reaver.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/38/Trait_reaver.png",
         "effects": [
             {
                 "effected_attr": "Raid speed",
@@ -1190,7 +1190,7 @@
     },
     {
         "name": "Unyielding Defender",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/a2/Trait_unyielding_defender.png/60px-Trait_unyielding_defender.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/a2/Trait_unyielding_defender.png",
         "effects": [
             {
                 "effected_attr": "Friendly fatal casualties",
@@ -1202,7 +1202,7 @@
     },
     {
         "name": "Cautious Leader",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/5b/Trait_cautious_leader.png/60px-Trait_cautious_leader.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/5b/Trait_cautious_leader.png",
         "effects": [
             {
                 "effected_attr": "Minimum battle roll",
@@ -1219,7 +1219,7 @@
     },
     {
         "name": "Reckless",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c4/Trait_reckless.png/60px-Trait_reckless.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c4/Trait_reckless.png",
         "effects": [
             {
                 "effected_attr": "Maximum battle roll",
@@ -1236,7 +1236,7 @@
     },
     {
         "name": "Forest Fighter",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/fa/Trait_forest_fighter.png/60px-Trait_forest_fighter.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/fa/Trait_forest_fighter.png",
         "effects": [
             {
                 "effected_attr": "Advantage in forest and taiga terrain",
@@ -1248,7 +1248,7 @@
     },
     {
         "name": "Open Terrain Expert",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/88/Trait_open_terrain_expert.png/60px-Trait_open_terrain_expert.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/88/Trait_open_terrain_expert.png",
         "effects": [
             {
                 "effected_attr": "Advantage in farmlands, plains and steppe terrain",
@@ -1260,7 +1260,7 @@
     },
     {
         "name": "Rough Terrain Expert",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/5e/Trait_rough_terrain_expert.png/60px-Trait_rough_terrain_expert.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/5e/Trait_rough_terrain_expert.png",
         "effects": [
             {
                 "effected_attr": "Advantage in hills, mountains and wetlands terrain",
@@ -1272,7 +1272,7 @@
     },
     {
         "name": "Desert Warrior",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1e/Trait_desert_warrior.png/60px-Trait_desert_warrior.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1e/Trait_desert_warrior.png",
         "effects": [
             {
                 "effected_attr": "Advantage in desert, desert mountains, drylands and oasis terrain",
@@ -1289,7 +1289,7 @@
     },
     {
         "name": "Jungle Stalker",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/2e/Trait_jungle_stalker.png/60px-Trait_jungle_stalker.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/2e/Trait_jungle_stalker.png",
         "effects": [
             {
                 "effected_attr": "Jungle advantage",
@@ -1311,7 +1311,7 @@
     },
     {
         "name": "Winter Soldier",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/64/Trait_winter_soldier.png/60px-Trait_winter_soldier.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/64/Trait_winter_soldier.png",
         "effects": [
             {
                 "effected_attr": "Movement speed in baronies affected by winter",
@@ -1328,7 +1328,7 @@
     },
     {
         "name": "Adulterer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b9/Trait_adulterer.png/60px-Trait_adulterer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b9/Trait_adulterer.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -1340,7 +1340,7 @@
     },
     {
         "name": "Fornicator",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1f/Trait_fornicator.png/60px-Trait_fornicator.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1f/Trait_fornicator.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -1352,7 +1352,7 @@
     },
     {
         "name": "Deviant",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/fd/Trait_deviant.png/60px-Trait_deviant.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/fd/Trait_deviant.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1369,7 +1369,7 @@
     },
     {
         "name": "Dynastic Kinslayer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/55/Trait_kinslayer_1.png/60px-Trait_kinslayer_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/55/Trait_kinslayer_1.png",
         "effects": [
             {
                 "effected_attr": "Dynasty opinion",
@@ -1381,7 +1381,7 @@
     },
     {
         "name": "Familial Kinslayer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f3/Trait_kinslayer_2.png/60px-Trait_kinslayer_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f3/Trait_kinslayer_2.png",
         "effects": [
             {
                 "effected_attr": "Dynasty opinion",
@@ -1398,7 +1398,7 @@
     },
     {
         "name": "Kinslayer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b0/Trait_kinslayer_3.png/60px-Trait_kinslayer_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b0/Trait_kinslayer_3.png",
         "effects": [
             {
                 "effected_attr": "Dynasty opinion",
@@ -1415,7 +1415,7 @@
     },
     {
         "name": "Incestuous",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4f/Trait_incestuous.png/60px-Trait_incestuous.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4f/Trait_incestuous.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -1427,7 +1427,7 @@
     },
     {
         "name": "Sodomite",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1b/Trait_sodomite.png/60px-Trait_sodomite.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1b/Trait_sodomite.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -1439,7 +1439,7 @@
     },
     {
         "name": "Witch",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/80/Trait_witch.png/60px-Trait_witch.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/80/Trait_witch.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -1466,7 +1466,7 @@
     },
     {
         "name": "Cannibal",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/d7/Trait_cannibal.png/60px-Trait_cannibal.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/d7/Trait_cannibal.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -1493,7 +1493,7 @@
     },
     {
         "name": "Excommunicated",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/15/Trait_excommunicated.png/60px-Trait_excommunicated.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/15/Trait_excommunicated.png",
         "effects": [
             {
                 "effected_attr": "Monthly piety",
@@ -1505,7 +1505,7 @@
     },
     {
         "name": "Murderer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c0/Trait_murderer.png/60px-Trait_murderer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c0/Trait_murderer.png",
         "effects": [
             {
                 "effected_attr": "General opinion",
@@ -1517,7 +1517,7 @@
     },
     {
         "name": "Drunkard",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/09/Trait_drunkard.png/60px-Trait_drunkard.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/09/Trait_drunkard.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1549,7 +1549,7 @@
     },
     {
         "name": "Flagellant",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/36/Trait_flagellant.png/60px-Trait_flagellant.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/36/Trait_flagellant.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1571,7 +1571,7 @@
     },
     {
         "name": "Comfort Eater",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f7/Trait_comfort_eater.png/60px-Trait_comfort_eater.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f7/Trait_comfort_eater.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1588,7 +1588,7 @@
     },
     {
         "name": "Contrite",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/50/Trait_contrite.png/60px-Trait_contrite.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/50/Trait_contrite.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1605,7 +1605,7 @@
     },
     {
         "name": "Improvident",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/58/Trait_improvident.png/60px-Trait_improvident.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/58/Trait_improvident.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1627,7 +1627,7 @@
     },
     {
         "name": "Inappetetic",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/88/Trait_inappetetic.png/60px-Trait_inappetetic.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/88/Trait_inappetetic.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1649,7 +1649,7 @@
     },
     {
         "name": "Reclusive",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/ca/Trait_reclusive.png/60px-Trait_reclusive.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/ca/Trait_reclusive.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1671,7 +1671,7 @@
     },
     {
         "name": "Irritable",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/2d/Trait_irritable.png/60px-Trait_irritable.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/2d/Trait_irritable.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1713,7 +1713,7 @@
     },
     {
         "name": "Rakish",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/ec/Trait_rakish.png/60px-Trait_rakish.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/ec/Trait_rakish.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1745,7 +1745,7 @@
     },
     {
         "name": "Hashishiyah",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/13/Trait_hashishiyah.png/60px-Trait_hashishiyah.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/13/Trait_hashishiyah.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1772,7 +1772,7 @@
     },
     {
         "name": "Profligate",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4f/Trait_profligate.png/60px-Trait_profligate.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4f/Trait_profligate.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1794,7 +1794,7 @@
     },
     {
         "name": "Confider",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/fe/Trait_confider.png/60px-Trait_confider.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/fe/Trait_confider.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -1811,7 +1811,7 @@
     },
     {
         "name": "Journaller",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/96/Trait_journaller.png/60px-Trait_journaller.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/96/Trait_journaller.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -1828,7 +1828,7 @@
     },
     {
         "name": "Athletic",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/08/Trait_athletic.png/60px-Trait_athletic.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/08/Trait_athletic.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -1850,7 +1850,7 @@
     },
     {
         "name": "Bastard",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/36/Trait_bastard.png/60px-Trait_bastard.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/36/Trait_bastard.png",
         "effects": [
             {
                 "effected_attr": "Same trait opinion",
@@ -1877,7 +1877,7 @@
     },
     {
         "name": "Bastard Founder",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/0c/Trait_bastard_founder.png/60px-Trait_bastard_founder.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/0c/Trait_bastard_founder.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -1894,7 +1894,7 @@
     },
     {
         "name": "Born in the Purple",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/ca/Trait_born_in_the_purple.png/60px-Trait_born_in_the_purple.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/ca/Trait_born_in_the_purple.png",
         "effects": [
             {
                 "effected_attr": "Monthly prestige",
@@ -1911,7 +1911,7 @@
     },
     {
         "name": "Child of Concubine",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/78/Trait_child_of_concubine.png/60px-Trait_child_of_concubine.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/78/Trait_child_of_concubine.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -1923,7 +1923,7 @@
     },
     {
         "name": "Denounced",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/e9/Trait_denounced.png/60px-Trait_denounced.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/e9/Trait_denounced.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -1945,7 +1945,7 @@
     },
     {
         "name": "Disinherited",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/e6/Trait_disinherited.png/60px-Trait_disinherited.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/e6/Trait_disinherited.png",
         "effects": [
             {
                 "effected_attr": "Dynasty opinion",
@@ -1962,7 +1962,7 @@
     },
     {
         "name": "Disputed Heritage",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/78/Trait_disputed_heritage.png/60px-Trait_disputed_heritage.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/78/Trait_disputed_heritage.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -1979,7 +1979,7 @@
     },
     {
         "name": "Legitimized Bastard",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/d1/Trait_legitimized_bastard.png/60px-Trait_legitimized_bastard.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/d1/Trait_legitimized_bastard.png",
         "effects": [
             {
                 "effected_attr": "Dynasty opinion",
@@ -1996,7 +1996,7 @@
     },
     {
         "name": "Reincarnation",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/59/Trait_reincarnation.png/60px-Trait_reincarnation.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/59/Trait_reincarnation.png",
         "effects": [
             {
                 "effected_attr": "Monthly piety",
@@ -2013,7 +2013,7 @@
     },
     {
         "name": "Twin",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8b/Trait_twin.png/60px-Trait_twin.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8b/Trait_twin.png",
         "effects": [
             {
                 "effected_attr": "Twin sibling opinion",
@@ -2025,7 +2025,7 @@
     },
     {
         "name": "Wild Oat",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b6/Trait_wild_oat.png/60px-Trait_wild_oat.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b6/Trait_wild_oat.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -2037,7 +2037,7 @@
     },
     {
         "name": "Augustus",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/7e/Trait_augustus.png/60px-Trait_augustus.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/7e/Trait_augustus.png",
         "effects": [
             {
                 "effected_attr": "Monthly prestige",
@@ -2054,7 +2054,7 @@
     },
     {
         "name": "Chakravarti",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/3c/Trait_chakravarti.png/60px-Trait_chakravarti.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/3c/Trait_chakravarti.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -2091,7 +2091,7 @@
     },
     {
         "name": "Greatest of Khans",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/db/Trait_greatest_of_khans.png/60px-Trait_greatest_of_khans.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/db/Trait_greatest_of_khans.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -2163,7 +2163,7 @@
     },
     {
         "name": "Pilgrim",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/9d/Trait_pilgrim.png/60px-Trait_pilgrim.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/9d/Trait_pilgrim.png",
         "effects": [
             {
                 "effected_attr": "Monthly piety",
@@ -2180,7 +2180,7 @@
     },
     {
         "name": "Hajji / Hajjah",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/00/Trait_hajjaj.png/60px-Trait_hajjaj.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/00/Trait_hajjaj.png",
         "effects": [
             {
                 "effected_attr": "Monthly piety",
@@ -2197,7 +2197,7 @@
     },
     {
         "name": "Adventurer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/61/Trait_adventurer.png/60px-Trait_adventurer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/61/Trait_adventurer.png",
         "effects": [
             {
                 "effected_attr": "Martial per level of fame",
@@ -2234,7 +2234,7 @@
     },
     {
         "name": "Berserker",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/66/Trait_berserker.png/60px-Trait_berserker.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/66/Trait_berserker.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2261,7 +2261,7 @@
     },
     {
         "name": "Devoted",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/10/Trait_devoted.png/60px-Trait_devoted.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/10/Trait_devoted.png",
         "effects": [
             {
                 "effected_attr": "Monthly piety",
@@ -2288,7 +2288,7 @@
     },
     {
         "name": "Heresiarch",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/78/Trait_heresiarch.png/60px-Trait_heresiarch.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/78/Trait_heresiarch.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2320,7 +2320,7 @@
     },
     {
         "name": "Holy Monarch",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f2/Trait_crusader_king.png/60px-Trait_crusader_king.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f2/Trait_crusader_king.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2377,7 +2377,7 @@
     },
     {
         "name": "Order Member",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/e0/Trait_order_member.png/60px-Trait_order_member.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/e0/Trait_order_member.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2409,7 +2409,7 @@
     },
     {
         "name": "Peasant Leader",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/0f/Trait_peasant_leader.png/60px-Trait_peasant_leader.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/0f/Trait_peasant_leader.png",
         "effects": [
             {
                 "effected_attr": "Army gold maintenance",
@@ -2436,7 +2436,7 @@
     },
     {
         "name": "Pregnant",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/59/Trait_pregnant.png/60px-Trait_pregnant.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/59/Trait_pregnant.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -2448,7 +2448,7 @@
     },
     {
         "name": "Poet",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/53/Trait_poet.png/60px-Trait_poet.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/53/Trait_poet.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy per level of fame",
@@ -2470,7 +2470,7 @@
     },
     {
         "name": "Raider",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/0c/Trait_viking.png/60px-Trait_viking.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/0c/Trait_viking.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2497,7 +2497,7 @@
     },
     {
         "name": "Shieldmaiden",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/3a/Trait_shieldmaiden.png/60px-Trait_shieldmaiden.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/3a/Trait_shieldmaiden.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2519,7 +2519,7 @@
     },
     {
         "name": "Crusader",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8e/Trait_crusader.png/60px-Trait_crusader.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8e/Trait_crusader.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2546,7 +2546,7 @@
     },
     {
         "name": "Mujahid",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/28/Trait_mujahid.png/60px-Trait_mujahid.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/28/Trait_mujahid.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2573,7 +2573,7 @@
     },
     {
         "name": "Warrior of the Faith",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/7a/Trait_faith_warrior.png/60px-Trait_faith_warrior.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/7a/Trait_faith_warrior.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2600,7 +2600,7 @@
     },
     {
         "name": "Loyal",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/88/Trait_loyal.png/60px-Trait_loyal.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/88/Trait_loyal.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -2642,7 +2642,7 @@
     },
     {
         "name": "Disloyal",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b3/Trait_disloyal.png/60px-Trait_disloyal.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b3/Trait_disloyal.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -2684,7 +2684,7 @@
     },
     {
         "name": "Saint",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b9/Trait_saint.png/60px-Trait_saint.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b9/Trait_saint.png",
         "effects": [
             {
                 "effected_attr": "Monthly piety",
@@ -2696,7 +2696,7 @@
     },
     {
         "name": "Bossy",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/02/Trait_bossy.png/60px-Trait_bossy.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/02/Trait_bossy.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2712,7 +2712,7 @@
     },
     {
         "name": "Charming",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/75/Trait_charming.png/60px-Trait_charming.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/75/Trait_charming.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -2728,7 +2728,7 @@
     },
     {
         "name": "Curious",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/6b/Trait_curious.png/60px-Trait_curious.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/6b/Trait_curious.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -2744,7 +2744,7 @@
     },
     {
         "name": "Pensive",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f0/Trait_pensive.png/60px-Trait_pensive.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f0/Trait_pensive.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -2760,7 +2760,7 @@
     },
     {
         "name": "Rowdy",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/6f/Trait_rowdy.png/60px-Trait_rowdy.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/6f/Trait_rowdy.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2776,7 +2776,7 @@
     },
     {
         "name": "Wounded",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c9/Trait_wounded_1.png/60px-Trait_wounded_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c9/Trait_wounded_1.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2813,7 +2813,7 @@
     },
     {
         "name": "Severely Injured",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b5/Trait_wounded_2.png/60px-Trait_wounded_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b5/Trait_wounded_2.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2860,7 +2860,7 @@
     },
     {
         "name": "Brutally Mauled",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/6f/Trait_wounded_3.png/60px-Trait_wounded_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/6f/Trait_wounded_3.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -2907,7 +2907,7 @@
     },
     {
         "name": "Sickly",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/ba/Trait_sickly.png/60px-Trait_sickly.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/ba/Trait_sickly.png",
         "effects": [
             {
                 "effected_attr": "Dread",
@@ -2929,7 +2929,7 @@
     },
     {
         "name": "Impotent",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/11/Trait_impotent.png/60px-Trait_impotent.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/11/Trait_impotent.png",
         "effects": [
             {
                 "effected_attr": "Fertility",
@@ -2941,7 +2941,7 @@
     },
     {
         "name": "Infirm",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/3b/Trait_infirm.png/60px-Trait_infirm.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/3b/Trait_infirm.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -2998,7 +2998,7 @@
     },
     {
         "name": "Incapable",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/5e/Trait_incapable.png/60px-Trait_incapable.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/5e/Trait_incapable.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3055,7 +3055,7 @@
     },
     {
         "name": "Inbred",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/70/Trait_inbred.png/60px-Trait_inbred.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/70/Trait_inbred.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3107,7 +3107,7 @@
     },
     {
         "name": "Maimed",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/92/Trait_maimed.png/60px-Trait_maimed.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/92/Trait_maimed.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3169,7 +3169,7 @@
     },
     {
         "name": "Blind",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8a/Trait_blind.png/60px-Trait_blind.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8a/Trait_blind.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -3211,7 +3211,7 @@
     },
     {
         "name": "Ill",
-        "icon": "https://ck3.paradoxwikis.com/images/9/91/Trait_ill.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/91",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -3242,7 +3242,7 @@
     },
     {
         "name": "Bubonic Plague",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c6/Trait_bubonic_plague.png/60px-Trait_bubonic_plague.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c6/Trait_bubonic_plague.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3303,7 +3303,7 @@
     },
     {
         "name": "Cancer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/fe/Trait_cancer.png/60px-Trait_cancer.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/fe/Trait_cancer.png",
         "effects": [
             {
                 "effected_attr": "Dread",
@@ -3329,7 +3329,7 @@
     },
     {
         "name": "Consumption",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1b/Trait_consumption.png/60px-Trait_consumption.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1b/Trait_consumption.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3375,7 +3375,7 @@
     },
     {
         "name": "Great Pox",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b3/Trait_great_pox.png/60px-Trait_great_pox.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b3/Trait_great_pox.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3431,7 +3431,7 @@
     },
     {
         "name": "Gout Ridden",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/12/Trait_gout_ridden.png/60px-Trait_gout_ridden.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/12/Trait_gout_ridden.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3467,7 +3467,7 @@
     },
     {
         "name": "Leper",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/a0/Trait_leper.png/60px-Trait_leper.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/a0/Trait_leper.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -3503,7 +3503,7 @@
     },
     {
         "name": "Lover's Pox",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/6f/Trait_lovers_pox.png/60px-Trait_lovers_pox.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/6f/Trait_lovers_pox.png",
         "effects": [
             {
                 "effected_attr": "Dread",
@@ -3519,7 +3519,7 @@
     },
     {
         "name": "Pneumonia",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c7/Trait_pneumonic.png/60px-Trait_pneumonic.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c7/Trait_pneumonic.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3575,7 +3575,7 @@
     },
     {
         "name": "Smallpox",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/92/Trait_smallpox.png/60px-Trait_smallpox.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/92/Trait_smallpox.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3626,7 +3626,7 @@
     },
     {
         "name": "Typhus",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/42/Trait_typhus.png/60px-Trait_typhus.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/42/Trait_typhus.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3682,7 +3682,7 @@
     },
     {
         "name": "Brave",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c8/Trait_brave.png/60px-Trait_brave.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c8/Trait_brave.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -3729,7 +3729,7 @@
     },
     {
         "name": "Craven",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/0/04/Trait_craven.png/60px-Trait_craven.png",
+        "icon": "https://ck3.paradoxwikis.com/images/0/04/Trait_craven.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -3786,7 +3786,7 @@
     },
     {
         "name": "Calm",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/69/Trait_calm.png/60px-Trait_calm.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/69/Trait_calm.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -3828,7 +3828,7 @@
     },
     {
         "name": "Wrathful",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/42/Trait_wrathful.png/60px-Trait_wrathful.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/42/Trait_wrathful.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -3860,7 +3860,7 @@
     },
     {
         "name": "Chaste",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/26/Trait_chaste.png/60px-Trait_chaste.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/26/Trait_chaste.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -3892,7 +3892,7 @@
     },
     {
         "name": "Lustful",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/ed/Trait_lustful.png/60px-Trait_lustful.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/ed/Trait_lustful.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -3929,7 +3929,7 @@
     },
     {
         "name": "Content",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/28/Trait_content.png/60px-Trait_content.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/28/Trait_content.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -3971,7 +3971,7 @@
     },
     {
         "name": "Ambitious",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/df/Trait_ambitious.png/60px-Trait_ambitious.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/df/Trait_ambitious.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4028,7 +4028,7 @@
     },
     {
         "name": "Diligent",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4a/Trait_diligent.png/60px-Trait_diligent.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4a/Trait_diligent.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4075,7 +4075,7 @@
     },
     {
         "name": "Lazy",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/a7/Trait_lazy.png/60px-Trait_lazy.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/a7/Trait_lazy.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -4117,7 +4117,7 @@
     },
     {
         "name": "Fickle",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/7d/Trait_fickle.png/60px-Trait_fickle.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/7d/Trait_fickle.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4144,7 +4144,7 @@
     },
     {
         "name": "Stubborn",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4e/Trait_stubborn.png/60px-Trait_stubborn.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4e/Trait_stubborn.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -4171,7 +4171,7 @@
     },
     {
         "name": "Forgiving",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/e7/Trait_forgiving.png/60px-Trait_forgiving.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/e7/Trait_forgiving.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4218,7 +4218,7 @@
     },
     {
         "name": "Vengeful",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4a/Trait_vengeful.png/60px-Trait_vengeful.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4a/Trait_vengeful.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -4260,7 +4260,7 @@
     },
     {
         "name": "Generous",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/9f/Trait_generous.png/60px-Trait_generous.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/9f/Trait_generous.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4292,7 +4292,7 @@
     },
     {
         "name": "Greedy",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/19/Trait_greedy.png/60px-Trait_greedy.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/19/Trait_greedy.png",
         "effects": [
             {
                 "effected_attr": "Monthly income",
@@ -4334,7 +4334,7 @@
     },
     {
         "name": "Gregarious",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/31/Trait_gregarious.png/60px-Trait_gregarious.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/31/Trait_gregarious.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4371,7 +4371,7 @@
     },
     {
         "name": "Shy",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/28/Trait_shy.png/60px-Trait_shy.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/28/Trait_shy.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -4413,7 +4413,7 @@
     },
     {
         "name": "Honest",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/cf/Trait_honest.png/60px-Trait_honest.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/cf/Trait_honest.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4450,7 +4450,7 @@
     },
     {
         "name": "Deceitful",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/20/Trait_deceitful.png/60px-Trait_deceitful.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/20/Trait_deceitful.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -4477,7 +4477,7 @@
     },
     {
         "name": "Humble",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/37/Trait_humble.png/60px-Trait_humble.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/37/Trait_humble.png",
         "effects": [
             {
                 "effected_attr": "Monthly piety",
@@ -4509,7 +4509,7 @@
     },
     {
         "name": "Arrogant",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c0/Trait_arrogant.png/60px-Trait_arrogant.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c0/Trait_arrogant.png",
         "effects": [
             {
                 "effected_attr": "Monthly prestige",
@@ -4546,7 +4546,7 @@
     },
     {
         "name": "Just",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b4/Trait_just.png/60px-Trait_just.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b4/Trait_just.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -4593,7 +4593,7 @@
     },
     {
         "name": "Arbitrary",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/67/Trait_arbitrary.png/60px-Trait_arbitrary.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/67/Trait_arbitrary.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -4635,7 +4635,7 @@
     },
     {
         "name": "Patient",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/af/Trait_patient.png/60px-Trait_patient.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/af/Trait_patient.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -4667,7 +4667,7 @@
     },
     {
         "name": "Impatient",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/42/Trait_impatient.png/60px-Trait_impatient.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/42/Trait_impatient.png",
         "effects": [
             {
                 "effected_attr": "Monthly prestige",
@@ -4709,7 +4709,7 @@
     },
     {
         "name": "Temperate",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/a9/Trait_temperate.png/60px-Trait_temperate.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/a9/Trait_temperate.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -4736,7 +4736,7 @@
     },
     {
         "name": "Gluttonous",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b7/Trait_gluttonous.png/60px-Trait_gluttonous.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b7/Trait_gluttonous.png",
         "effects": [
             {
                 "effected_attr": "Stress loss",
@@ -4773,7 +4773,7 @@
     },
     {
         "name": "Trusting",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/f0/Trait_trusting.png/60px-Trait_trusting.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/f0/Trait_trusting.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4810,7 +4810,7 @@
     },
     {
         "name": "Paranoid",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/52/Trait_paranoid.png/60px-Trait_paranoid.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/52/Trait_paranoid.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -4857,7 +4857,7 @@
     },
     {
         "name": "Zealous",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8d/Trait_zealous.png/60px-Trait_zealous.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8d/Trait_zealous.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -4899,7 +4899,7 @@
     },
     {
         "name": "Cynical",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c8/Trait_cynical.png/60px-Trait_cynical.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c8/Trait_cynical.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -4936,7 +4936,7 @@
     },
     {
         "name": "Compassionate",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/5c/Trait_compassionate.png/60px-Trait_compassionate.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/5c/Trait_compassionate.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -4978,7 +4978,7 @@
     },
     {
         "name": "Callous",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/d/d1/Trait_callous.png/60px-Trait_callous.png",
+        "icon": "https://ck3.paradoxwikis.com/images/d/d1/Trait_callous.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -5025,7 +5025,7 @@
     },
     {
         "name": "Sadistic",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/90/Trait_sadistic.png/60px-Trait_sadistic.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/90/Trait_sadistic.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -5062,7 +5062,7 @@
     },
     {
         "name": "Hideous",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/68/Trait_beauty_bad_3.png/60px-Trait_beauty_bad_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/68/Trait_beauty_bad_3.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5083,7 +5083,7 @@
     },
     {
         "name": "Ugly",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/12/Trait_beauty_bad_2.png/60px-Trait_beauty_bad_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/12/Trait_beauty_bad_2.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5104,7 +5104,7 @@
     },
     {
         "name": "Homely",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/21/Trait_beauty_bad_1.png/60px-Trait_beauty_bad_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/21/Trait_beauty_bad_1.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5125,7 +5125,7 @@
     },
     {
         "name": "Comely",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/15/Trait_beauty_good_1.png/60px-Trait_beauty_good_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/15/Trait_beauty_good_1.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5151,7 +5151,7 @@
     },
     {
         "name": "Pretty / Handsome",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8f/Trait_beauty_good_2.png/60px-Trait_beauty_good_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8f/Trait_beauty_good_2.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5177,7 +5177,7 @@
     },
     {
         "name": "Beautiful",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/ed/Trait_beauty_good_3.png/60px-Trait_beauty_good_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/ed/Trait_beauty_good_3.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5203,7 +5203,7 @@
     },
     {
         "name": "Imbecile",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/75/Trait_intellect_bad_3.png/60px-Trait_intellect_bad_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/75/Trait_intellect_bad_3.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5239,7 +5239,7 @@
     },
     {
         "name": "Stupid",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/e6/Trait_intellect_bad_2.png/60px-Trait_intellect_bad_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/e6/Trait_intellect_bad_2.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5275,7 +5275,7 @@
     },
     {
         "name": "Slow",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/c/c9/Trait_intellect_bad_1.png/60px-Trait_intellect_bad_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/c/c9/Trait_intellect_bad_1.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5311,7 +5311,7 @@
     },
     {
         "name": "Quick",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b9/Trait_intellect_good_1.png/60px-Trait_intellect_good_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b9/Trait_intellect_good_1.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5352,7 +5352,7 @@
     },
     {
         "name": "Intelligent",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8c/Trait_intellect_good_2.png/60px-Trait_intellect_good_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8c/Trait_intellect_good_2.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5393,7 +5393,7 @@
     },
     {
         "name": "Genius",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/63/Trait_intellect_good_3.png/60px-Trait_intellect_good_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/63/Trait_intellect_good_3.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5434,7 +5434,7 @@
     },
     {
         "name": "Feeble",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/84/Trait_physique_bad_3.png/60px-Trait_physique_bad_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/84/Trait_physique_bad_3.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5455,7 +5455,7 @@
     },
     {
         "name": "Frail",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/ba/Trait_physique_bad_2.png/60px-Trait_physique_bad_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/ba/Trait_physique_bad_2.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5476,7 +5476,7 @@
     },
     {
         "name": "Delicate",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/33/Trait_physique_bad_1.png/60px-Trait_physique_bad_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/33/Trait_physique_bad_1.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5492,7 +5492,7 @@
     },
     {
         "name": "Hale",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/9b/Trait_physique_good_1.png/60px-Trait_physique_good_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/9b/Trait_physique_good_1.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5513,7 +5513,7 @@
     },
     {
         "name": "Robust",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1a/Trait_physique_good_2.png/60px-Trait_physique_good_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1a/Trait_physique_good_2.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5534,7 +5534,7 @@
     },
     {
         "name": "Amazonian / Herculean",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/76/Trait_physique_good_3.png/60px-Trait_physique_good_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/76/Trait_physique_good_3.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5555,7 +5555,7 @@
     },
     {
         "name": "Aspiring Blademaster",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1f/Trait_blademaster.png/60px-Trait_blademaster.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1f/Trait_blademaster.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5571,7 +5571,7 @@
     },
     {
         "name": "Blademaster",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1f/Trait_blademaster.png/60px-Trait_blademaster.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1f/Trait_blademaster.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5587,7 +5587,7 @@
     },
     {
         "name": "Legendary Blademaster",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/1f/Trait_blademaster.png/60px-Trait_blademaster.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/1f/Trait_blademaster.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5603,7 +5603,7 @@
     },
     {
         "name": "Novice Hunter",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/9b/Trait_hunter.png/60px-Trait_hunter.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/9b/Trait_hunter.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5619,7 +5619,7 @@
     },
     {
         "name": "Hunter",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/9b/Trait_hunter.png/60px-Trait_hunter.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/9b/Trait_hunter.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5635,7 +5635,7 @@
     },
     {
         "name": "Master Hunter",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/9b/Trait_hunter.png/60px-Trait_hunter.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/9b/Trait_hunter.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -5651,7 +5651,7 @@
     },
     {
         "name": "Wise Man/Woman",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/98/Trait_mystic.png/60px-Trait_mystic.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/98/Trait_mystic.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -5667,7 +5667,7 @@
     },
     {
         "name": "Mystic",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/98/Trait_mystic.png/60px-Trait_mystic.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/98/Trait_mystic.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -5683,7 +5683,7 @@
     },
     {
         "name": "Miracle Worker",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/98/Trait_mystic.png/60px-Trait_mystic.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/98/Trait_mystic.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -5699,7 +5699,7 @@
     },
     {
         "name": "Eager Reveler",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4b/Trait_reveler.png/60px-Trait_reveler.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4b/Trait_reveler.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5720,7 +5720,7 @@
     },
     {
         "name": "Famous Reveler",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4b/Trait_reveler.png/60px-Trait_reveler.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4b/Trait_reveler.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5741,7 +5741,7 @@
     },
     {
         "name": "Legendary Reveler",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/4/4b/Trait_reveler.png/60px-Trait_reveler.png",
+        "icon": "https://ck3.paradoxwikis.com/images/4/4b/Trait_reveler.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5762,7 +5762,7 @@
     },
     {
         "name": "Novice Physician",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/fe/Trait_physician.png/60px-Trait_physician.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/fe/Trait_physician.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -5778,7 +5778,7 @@
     },
     {
         "name": "Physician",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/fe/Trait_physician.png/60px-Trait_physician.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/fe/Trait_physician.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -5794,7 +5794,7 @@
     },
     {
         "name": "Renowned Physician",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/f/fe/Trait_physician.png/60px-Trait_physician.png",
+        "icon": "https://ck3.paradoxwikis.com/images/f/fe/Trait_physician.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -5810,7 +5810,7 @@
     },
     {
         "name": "Naive Appeaser",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/7d/Trait_education_diplomacy_1.png/24px-Trait_education_diplomacy_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/7d/Trait_education_diplomacy_1.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5827,7 +5827,7 @@
     },
     {
         "name": "Adequate Bargainer",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/ba/Trait_education_diplomacy_2.png/24px-Trait_education_diplomacy_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/ba/Trait_education_diplomacy_2.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5844,7 +5844,7 @@
     },
     {
         "name": "Charismatic Negotiator",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/a3/Trait_education_diplomacy_3.png/24px-Trait_education_diplomacy_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/a3/Trait_education_diplomacy_3.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5861,7 +5861,7 @@
     },
     {
         "name": "Grey Eminence",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/19/Trait_education_diplomacy_4.png/24px-Trait_education_diplomacy_4.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/19/Trait_education_diplomacy_4.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -5878,7 +5878,7 @@
     },
     {
         "name": "Misguided Warrior",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8a/Trait_education_martial_1.png/24px-Trait_education_martial_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8a/Trait_education_martial_1.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -5895,7 +5895,7 @@
     },
     {
         "name": "Tough Soldier",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/25/Trait_education_martial_2.png/24px-Trait_education_martial_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/25/Trait_education_martial_2.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -5912,7 +5912,7 @@
     },
     {
         "name": "Skilled Tactician",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8b/Trait_education_martial_3.png/24px-Trait_education_martial_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8b/Trait_education_martial_3.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -5929,7 +5929,7 @@
     },
     {
         "name": "Brilliant Strategist",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/12/Trait_education_martial_4.png/24px-Trait_education_martial_4.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/12/Trait_education_martial_4.png",
         "effects": [
             {
                 "effected_attr": "Martial",
@@ -5946,7 +5946,7 @@
     },
     {
         "name": "Indulgent Wastrel",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/89/Trait_education_stewardship_1.png/24px-Trait_education_stewardship_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/89/Trait_education_stewardship_1.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -5963,7 +5963,7 @@
     },
     {
         "name": "Thrifty Clerk",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/7d/Trait_education_stewardship_2.png/24px-Trait_education_stewardship_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/7d/Trait_education_stewardship_2.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -5980,7 +5980,7 @@
     },
     {
         "name": "Fortune Builder",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/91/Trait_education_stewardship_3.png/24px-Trait_education_stewardship_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/91/Trait_education_stewardship_3.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -5997,7 +5997,7 @@
     },
     {
         "name": "Midas Touched",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8f/Trait_education_stewardship_4.png/24px-Trait_education_stewardship_4.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8f/Trait_education_stewardship_4.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -6014,7 +6014,7 @@
     },
     {
         "name": "Amateurish Plotter",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/ba/Trait_education_intrigue_1.png/24px-Trait_education_intrigue_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/ba/Trait_education_intrigue_1.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -6031,7 +6031,7 @@
     },
     {
         "name": "Flamboyant Trickster",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/e/e8/Trait_education_intrigue_2.png/24px-Trait_education_intrigue_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/e/e8/Trait_education_intrigue_2.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -6048,7 +6048,7 @@
     },
     {
         "name": "Intricate Webweaver",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/a/ad/Trait_education_intrigue_3.png/24px-Trait_education_intrigue_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/a/ad/Trait_education_intrigue_3.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -6065,7 +6065,7 @@
     },
     {
         "name": "Elusive Shadow",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/17/Trait_education_intrigue_4.png/24px-Trait_education_intrigue_4.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/17/Trait_education_intrigue_4.png",
         "effects": [
             {
                 "effected_attr": "Intrigue",
@@ -6082,7 +6082,7 @@
     },
     {
         "name": "Conscientious Scribe",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/b1/Trait_education_learning_1.png/24px-Trait_education_learning_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/b1/Trait_education_learning_1.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -6099,7 +6099,7 @@
     },
     {
         "name": "Insightful Thinker",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/3f/Trait_education_learning_2.png/24px-Trait_education_learning_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/3f/Trait_education_learning_2.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -6116,7 +6116,7 @@
     },
     {
         "name": "Astute Intellectual",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/5/5a/Trait_education_learning_3.png/24px-Trait_education_learning_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/5/5a/Trait_education_learning_3.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -6133,7 +6133,7 @@
     },
     {
         "name": "Mastermind Philosopher",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/6/6f/Trait_education_learning_4.png/24px-Trait_education_learning_4.png",
+        "icon": "https://ck3.paradoxwikis.com/images/6/6f/Trait_education_learning_4.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -6150,7 +6150,7 @@
     },
     {
         "name": "Bumbling Squire",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/9d/Trait_education_martial_prowess_1.png/24px-Trait_education_martial_prowess_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/9d/Trait_education_martial_prowess_1.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -6162,7 +6162,7 @@
     },
     {
         "name": "Confident Knight",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/1/15/Trait_education_martial_prowess_2.png/24px-Trait_education_martial_prowess_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/1/15/Trait_education_martial_prowess_2.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -6174,7 +6174,7 @@
     },
     {
         "name": "Formidable Banneret",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/7/76/Trait_education_martial_prowess_3.png/24px-Trait_education_martial_prowess_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/7/76/Trait_education_martial_prowess_3.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -6186,7 +6186,7 @@
     },
     {
         "name": "Famous Champion",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/9/94/Trait_education_martial_prowess_4.png/24px-Trait_education_martial_prowess_4.png",
+        "icon": "https://ck3.paradoxwikis.com/images/9/94/Trait_education_martial_prowess_4.png",
         "effects": [
             {
                 "effected_attr": "Prowess",
@@ -6198,7 +6198,7 @@
     },
     {
         "name": "Town Dweller",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/29/Trait_education_republican_knowledge_1.png/24px-Trait_education_republican_knowledge_1.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/29/Trait_education_republican_knowledge_1.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -6215,7 +6215,7 @@
     },
     {
         "name": "Mayor Trainee",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8a/Trait_education_republican_knowledge_2.png/24px-Trait_education_republican_knowledge_2.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8a/Trait_education_republican_knowledge_2.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -6232,7 +6232,7 @@
     },
     {
         "name": "Town Maven",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/81/Trait_education_republican_knowledge_3.png/24px-Trait_education_republican_knowledge_3.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/81/Trait_education_republican_knowledge_3.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -6249,7 +6249,7 @@
     },
     {
         "name": "Republican Heir",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/8b/Trait_education_republican_knowledge_4.png/24px-Trait_education_republican_knowledge_4.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/8b/Trait_education_republican_knowledge_4.png",
         "effects": [
             {
                 "effected_attr": "Stewardship",
@@ -6266,7 +6266,7 @@
     },
     {
         "name": "Saoshyant",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/b/bf/Trait_saoshyant.png/60px-Trait_saoshyant.png",
+        "icon": "https://ck3.paradoxwikis.com/images/b/bf/Trait_saoshyant.png",
         "effects": [
             {
                 "effected_attr": "Diplomacy",
@@ -6292,7 +6292,7 @@
     },
     {
         "name": "Saoshyant Descendant",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/85/Trait_saoshyant_descendant.png/60px-Trait_saoshyant_descendant.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/85/Trait_saoshyant_descendant.png",
         "effects": [
             {
                 "effected_attr": "Learning",
@@ -6308,7 +6308,7 @@
     },
     {
         "name": "Sayyid",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/3d/Trait_sayyid.png/60px-Trait_sayyid.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/3d/Trait_sayyid.png",
         "effects": [
             {
                 "effected_attr": "Muslim opinion",
@@ -6319,7 +6319,7 @@
     },
     {
         "name": "Sayyid",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/3/3d/Trait_sayyid.png/60px-Trait_sayyid.png",
+        "icon": "https://ck3.paradoxwikis.com/images/3/3d/Trait_sayyid.png",
         "effects": [
             {
                 "effected_attr": "Muslim opinion",
@@ -6330,7 +6330,7 @@
     },
     {
         "name": "Paragon",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/2c/Trait_paragon.png/60px-Trait_paragon.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/2c/Trait_paragon.png",
         "effects": [
             {
                 "effected_attr": "Temple vassal opinion",
@@ -6341,7 +6341,7 @@
     },
     {
         "name": "Consecrated Blood",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/86/Trait_divine_blood.png/60px-Trait_divine_blood.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/86/Trait_divine_blood.png",
         "effects": [
             {
                 "effected_attr": "Temple vassal opinion",
@@ -6352,7 +6352,7 @@
     },
     {
         "name": "The Savior",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/2/2c/Trait_paragon.png/60px-Trait_paragon.png",
+        "icon": "https://ck3.paradoxwikis.com/images/2/2c/Trait_paragon.png",
         "effects": [
             {
                 "effected_attr": "County conversion speed",
@@ -6368,7 +6368,7 @@
     },
     {
         "name": "Divine Blood",
-        "icon": "https://ck3.paradoxwikis.com/images/thumb/8/86/Trait_divine_blood.png/60px-Trait_divine_blood.png",
+        "icon": "https://ck3.paradoxwikis.com/images/8/86/Trait_divine_blood.png",
         "effects": [
             {
                 "effected_attr": "County conversion speed",
