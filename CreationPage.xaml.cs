@@ -23,17 +23,22 @@ namespace CKChronicler;
 public partial class CreationPage : Page {
     private string _currentButton;
 
+    private int _charID;
+
     private readonly CharDetails _charDetails;
     private readonly TraitEditor _traitEditor;
-    private readonly MainWindow _parentWindow;
+    private readonly MainWindow _returnTo;
     
-    public CreationPage(MainWindow pw) {
+    public CreationPage(MainWindow pw, int charID, string title)
+    {
+        _charID = charID;
         _currentButton = "DetailsButton";
-        _charDetails = new CharDetails();
+        _charDetails = new CharDetails(charID);
         _traitEditor = new TraitEditor();
-        _parentWindow = pw;
+        _returnTo = pw;
         InitializeComponent();
-        
+
+        BannerText.Text = title;
         CharacterCreateFrame.Content = _charDetails;
     }
 
@@ -59,7 +64,7 @@ public partial class CreationPage : Page {
                 
             case "TraitsButton":
                 TraitsButtonLabel.Text = "< TRAITS >";
-                _traitEditor.CharName.Text = App.CurrentChar.GetFullTitle();
+                _traitEditor.CharName.Text = App.LoadedSave.GetCharacter(_charID).GetFullTitle();
                 CharacterCreateFrame.Content = _traitEditor;
                 break;
             
@@ -68,7 +73,9 @@ public partial class CreationPage : Page {
         }
     }
 
-    private void ReturnButton_OnClick(object sender, RoutedEventArgs e) {
-        _parentWindow.ShowMainMenu();
+    private void ReturnButton_OnClick(object sender, RoutedEventArgs e)
+    {
+        App.LoadedSave.Delete();
+        _returnTo.ShowCreatePage();
     }
 }

@@ -20,7 +20,9 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
-                <RowDefinition Height="5*" /> <!-- Empty spacing -->
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="3*" /> <!-- Empty spacing -->
             </Grid.RowDefinitions>
             
             <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
@@ -39,7 +41,15 @@
                        FontSize="24" FontWeight="Bold" FontFamily="{StaticResource Bellefair}" Text="Primary Title:" Foreground="#829BA5" />
             <TextBox x:Name="CharTitle" Grid.Row="3" Grid.Column="1" TextChanged="UpdateCharPreviewText" FontSize="20" />
             
-            <Frame Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Source="Attributes.xaml"></Frame>
+            <TextBlock Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                       FontSize="24" FontWeight="Bold" FontFamily="{StaticResource Bellefair}" Text="Religion:" Foreground="#829BA5" />
+            <TextBox x:Name="CharFaith" Grid.Row="4" Grid.Column="1" TextChanged="UpdateCharPreviewText" FontSize="20" />
+            
+            <TextBlock Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                       FontSize="24" FontWeight="Bold" FontFamily="{StaticResource Bellefair}" Text="Culture:" Foreground="#829BA5" />
+            <TextBox x:Name="CharCulture" Grid.Row="5" Grid.Column="1" TextChanged="UpdateCharPreviewText" FontSize="20" />
+            
+            <Frame Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Source="Attributes.xaml"></Frame>
             
             
             <TextBlock x:Name="CharPreview" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" TextWrapping="Wrap" TextAlignment="Center" 

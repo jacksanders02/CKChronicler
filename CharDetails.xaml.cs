@@ -2,17 +2,21 @@
 
 namespace CKChronicler; 
 
-public partial class CharDetails : Page {
-    public CharDetails() {
+public partial class CharDetails : Page
+{
+    private int _charID;
+    public CharDetails(int charID)
+    {
+        _charID = charID;
         InitializeComponent();
     }
     
     private void UpdateCharPreviewText(object sender, TextChangedEventArgs e) {
-        App.CurrentChar.SetRank(CharRank.Text);
-        App.CurrentChar.SetName(CharName.Text);
-        App.CurrentChar.SetDynasty(CharDynasty.Text);
-        App.CurrentChar.SetPTitle(CharTitle.Text);
+        App.LoadedSave.GetCharacter(_charID).SetRank(CharRank.Text);
+        App.LoadedSave.GetCharacter(_charID).SetName(CharName.Text);
+        App.LoadedSave.GetCharacter(_charID).SetDynasty(CharDynasty.Text);
+        App.LoadedSave.GetCharacter(_charID).SetPTitle(CharTitle.Text);
 
-        CharPreview.Text = App.CurrentChar.GetFullTitle();
+        CharPreview.Text = App.LoadedSave.GetCharacter(_charID).GetFullTitle();
     }
 }

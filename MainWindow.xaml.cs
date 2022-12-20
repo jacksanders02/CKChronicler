@@ -13,12 +13,7 @@
 // 
 //   You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-using System;
-using System.Printing;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Input;
 
 namespace CKChronicler
 {
@@ -39,7 +34,7 @@ namespace CKChronicler
 
         public void ShowCreatePage()
         {
-            Main.Content = new CKChronicler.CreationPage(this);
+            Main.Content = new CKChronicler.CreateSave(this);
         }
     }
 }
