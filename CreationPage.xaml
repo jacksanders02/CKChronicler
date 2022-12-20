@@ -43,7 +43,7 @@
                        Text="TRAITS" />
         </Button>
         
-        <Frame Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" Name="CharacterCreateFrame" Background="#141414"
+        <Frame Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" Name="CharacterCreateFrame" Background="#2F2F2F"
                NavigationUIVisibility="Hidden" Content="" />
     </Grid>
 </Page>

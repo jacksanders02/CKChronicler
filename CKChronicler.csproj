@@ -54,6 +54,7 @@
       <Resource Include="Resources\Images\attributes\stewardship.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Resource>
+      <None Remove="Resources\Images\loading.gif" />
     </ItemGroup>
 
 </Project>

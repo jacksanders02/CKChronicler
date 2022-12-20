@@ -5,14 +5,14 @@ using System.Text.Json;
 
 namespace CKChronicler;
 
-public abstract class Effect
+public class Effect
 {
     public string effected_attr { get; set; } = null!;
     public string effect_magnitude { get; set; } = null!;
     public string positivity { get; set; } = null!;
 }
 
-public abstract class Trait
+public class Trait
 {
     public string name { get; set; } = null!;
     public string icon { get; set; } = null!;

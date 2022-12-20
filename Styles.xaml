@@ -6,13 +6,13 @@
     </Style>
     
     <Style TargetType="Border" x:Key="TabBorder">
-        <Setter Property="Background" Value="#141414" />
+        <Setter Property="Background" Value="#2F2F2F" />
         <Setter Property="BorderThickness" Value="0" />
         <Setter Property="Padding" Value="15" />
     </Style>
     
     <Style TargetType="Button" x:Key="MainButton">
-        <Setter Property="Background" Value="#141414" />
+        <Setter Property="Background" Value="#2F2F2F" />
         <Setter Property="Foreground" Value="#AD8E68" />
         <Setter Property="FontFamily" Value="{StaticResource Bellefair}" />
         
@@ -57,7 +57,7 @@
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
                     <Grid>
-                        <Path Fill="#141414" Stretch="UniformToFill" Data="M37.3,0.5h111c0,0,111,0,111,0h-0.6c8.3,0.1,
+                        <Path Fill="#2F2F2F" Stretch="UniformToFill" Data="M37.3,0.5h111c0,0,111,0,111,0h-0.6c8.3,0.1,
                             16.3,4.7,20.4,11.8c2.3,3.9,3.4,8.4,4.2,12.9l12.7,73c0,0-147.7,0-147.7,0H0.6c0,0,12.7-73,
                             12.7-73c0.8-4.5,1.9-9,4.2-12.9c4.1-7,12.2-11.6,20.4-11.8" />
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
@@ -82,5 +82,17 @@
                 </Setter>
             </Trigger>
         </Style.Triggers>
+    </Style>
+    
+    <Style TargetType="TextBox">
+        <Setter Property="Background" Value="#161616" />
+        <Setter Property="Foreground" Value="#D7D6BA" />
+        <Setter Property="BorderBrush" Value="#AD8E68" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontFamily" Value="{StaticResource Bellefair}" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="Height" Value="28" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
     </Style>
 </ResourceDictionary>

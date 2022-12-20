@@ -24,13 +24,13 @@ public partial class CreationPage : Page {
     private string _currentButton;
 
     private readonly CharDetails _charDetails;
-    private readonly Attributes _attributes;
+    private readonly TraitEditor _traitEditor;
     private readonly MainWindow _parentWindow;
     
     public CreationPage(MainWindow pw) {
         _currentButton = "DetailsButton";
         _charDetails = new CharDetails();
-        _attributes = new Attributes();
+        _traitEditor = new TraitEditor();
         _parentWindow = pw;
         InitializeComponent();
         
@@ -59,7 +59,8 @@ public partial class CreationPage : Page {
                 
             case "TraitsButton":
                 TraitsButtonLabel.Text = "< TRAITS >";
-                CharacterCreateFrame.Content = new CKChronicler.CharDetails();
+                _traitEditor.CharName.Text = App.CurrentChar.GetFullTitle();
+                CharacterCreateFrame.Content = _traitEditor;
                 break;
             
             default:

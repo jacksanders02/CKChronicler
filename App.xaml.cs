@@ -26,6 +26,6 @@ namespace CKChronicler
     public partial class App : Application
     {
         public static readonly Character CurrentChar = new();
-        public static readonly List<TraitsLoader.Trait> AllTraits = TraitsLoader.LoadAllTraits();
+        public static readonly List<Trait> AllTraits = TraitsLoader.LoadAllTraits();
     }
 }
