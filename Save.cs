@@ -25,7 +25,14 @@ public class Save
 
     public int AddCharacter()
     {
-        int newID = _characters.Keys.Max() + 1;
+        int newID;
+        if (_characters.Keys.Count == 0)
+        {
+            newID = 0;
+        } else
+        {
+            newID = _characters.Keys.Max() + 1;
+        }
         _characters.Add(newID, new Character());
         return newID;
     }
@@ -37,7 +44,7 @@ public class Save
 
     public string GetDirectory()
     {
-        return "/Saves/" + new Regex("[\\/:|<>*?]").Replace(_saveName, "");
+        return ".\\Saves\\" + new Regex("[\\/:|<>*?]").Replace(_saveName, "");
     }
 
     public Character GetCharacter(int id)

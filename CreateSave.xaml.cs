@@ -16,4 +16,11 @@ public partial class CreateSave : Page
     private void ReturnButton_OnClick(object sender, RoutedEventArgs e) {
         _parentWindow.ShowMainMenu();
     }
+
+    private void CreateSave_OnClick(object sender, RoutedEventArgs e)
+    {
+        string saveName = SaveNameBox.Text;
+        App.LoadedSave = new Save(saveName);
+        _parentWindow.ShowInitialCharPage();
+    }
 }

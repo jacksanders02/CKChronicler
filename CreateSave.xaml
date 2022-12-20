@@ -51,7 +51,8 @@
                         </TextBlock.Style>
                     </TextBlock>
                 </Grid>
-                <Button Style="{StaticResource MainButton}" Margin="0 15 0 0" FontSize="24">
+                <Button Style="{StaticResource MainButton}" Margin="0 15 0 0" FontSize="24"
+                        Click="CreateSave_OnClick">
                     <TextBlock Text="Create Save"></TextBlock>
                 </Button>
             </StackPanel>

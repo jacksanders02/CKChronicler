@@ -29,12 +29,18 @@ namespace CKChronicler
 
         public void ShowMainMenu()
         {
-            Main.Content = new CKChronicler.MainMenu();
+            Main.Content = new MainMenu();
         }
 
         public void ShowCreatePage()
         {
-            Main.Content = new CKChronicler.CreateSave(this);
+            Main.Content = new CreateSave(this);
+        }
+
+        public void ShowInitialCharPage()
+        { 
+            int firstChar = App.LoadedSave.AddCharacter();
+            Main.Content = new CreationPage(this, firstChar, "Initial Ruler");
         }
     }
 }
