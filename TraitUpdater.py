@@ -15,7 +15,16 @@ NORMALS = ["Congenital_traits", "Physical_traits", "Lifestyle_traits",
            "Dynasty_traits", "Decision_traits", "Event_traits",
            "Unobtainable_traits"]
 
+HEADING_EFFECTS = ["Childhood_traits", "Health_traits", "Diseases"]
+
+LEVELED_CONGEN = SOUP.find(id="Leveled_congenital_traits").find_next("tbody")
+
 PERSONALITY = SOUP.find(id="Personality_traits").find_next("tbody")
+
+LIFE = SOUP.find(id="Leveled_Activities/Lifestyle_traits").find_next("tbody")
+EDUCATION = SOUP.find(id="Education_traits").find_next("tbody")
+
+DESCENDANTS = SOUP.find(id="Descendant_traits").find_next("tbody")
 
 
 # Takes a list of effects in HTML, and parses them to a dictionary
@@ -28,18 +37,32 @@ def parse_effects(effects):
     if len(effects_list) == 0:
         effects_list = [effects]
 
+    # Clean up effects
+    for e in effects_list:
+        # Remove superscript citations
+        if sups := e.find_all("sup"):
+            for s in sups:
+                s.extract()
+
+        # Fix up instances of multiple effects in one list item
+        if p_tag := e.find_all("p"):
+            effects_list = [p_tag[0]]
+            p_tag[0].extract()
+            effects_list.append(e)
+
     for e in effects_list:
         if "mutually exclusive" in e.text.lower():
             continue
 
-        mag = e.find_all('b')
+        attr = ''.join(re.findall(r'[^0-9.\-−+%]', e.text)).strip()
+        mag = ''.join(re.findall(r'[0-9.\-−+%]', e.text)).strip()
         pos = e.find_all('span')
 
         current_effect = {
-            "effected_attr": ''.join(re.findall(r'[^0-9.\-−+%]',
-                                                e.text)).strip(),
-            "effect_magnitude": mag[0].text.strip().replace("−",
-                                                            "-") if mag else "",
+            # Remove hidden: prefix and capitalise first  letter
+            "effected_attr": attr.removeprefix("Hidden:").strip().capitalize(),
+            # Replace heavy minus with normal dash, for compatibility
+            "effect_magnitude": mag.replace("−", "-"),
             "positivity": pos[0]["class"][0].strip() if pos else ""
         }
 
@@ -108,6 +131,8 @@ def regular_table(traits_table):
 
 # Handles weirdly-formatted personality traits table(s)
 def personality_traits(personality_table):
+    # Get description table, as descriptions are stored separately from the
+    # trait data
     description_table = personality_table.find_next('tbody')
 
     heading_data = get_heading_data(personality_table)
@@ -148,12 +173,204 @@ def personality_traits(personality_table):
     return table_traits
 
 
+# Handle unique leveled congenital traits table
+def leveled_congenital(traits_table):
+    # Skip table headings
+    rows = traits_table.find_all("tr")[1:]
+    table_traits = []
+
+    for row in rows:
+        # Skip trait group
+        cols = row.find_all("td")[1:]
+        for td in cols:
+            other_name = td.find_all("div")
+            icon = td.find_next("img")
+            table_traits.append({
+                "name": td["id"] + (f" / {other_name[0]['id']}" if other_name
+                                    else ""),
+                "icon": "https://ck3.paradoxwikis.com" + icon['src'],
+                "effects": parse_effects(td.find_next("ul"))
+            })
+
+    return table_traits
+
+
+# Handle unique leveled lifestyle traits table
+def leveled_lifestyle(traits_table):
+    # Skip table headings
+    rows = traits_table.find_all("tr")[1:]
+    table_traits = []
+
+    for row in rows:
+        cols = row.find_all("td")
+        # Skip trait group
+        icon = cols[0].find_next("img")
+
+        for td in cols[2:]:
+            list_items = td.find_all("li")
+
+            # Find and get nam, then extract from document
+            name_item = list_items[0]
+            name = name_item.find_next("b")
+            name_item.extract()
+
+            table_traits.append({
+                "name": name.text.strip(),
+                "icon": "https://ck3.paradoxwikis.com" + icon['src'],
+                "effects": parse_effects(td)
+            })
+
+    return table_traits
+
+
+# Handle unique education traits table
+def education_traits(traits_table):
+    # Skip table headings
+    rows = traits_table.find_all("tr")[1:]
+    table_traits = []
+    current_attr = None
+
+    for row in rows:
+        cols = row.find_all("td")
+        if cols[0].has_attr("rowspan"):
+            current_attr = cols[0].text.strip()
+            cols = cols[1:]
+
+        icon = cols[0].find_next("img")
+
+        table_traits.append({
+            "name": cols[0].text.strip(),
+            "icon": "https://ck3.paradoxwikis.com" + icon["src"],
+            "effects": [],
+            "description": cols[4].text.strip()
+        })
+
+        # Handles town maven branch of education, that adds to both
+        # stewardship and learning (written as Stewardship-Learning on the wiki)
+        for ca in current_attr.split("-"):
+            table_traits[-1]["effects"].append({
+                "effected_attr": ca,
+                "effect_magnitude": cols[1].text.strip().replace("−", "-"),
+                "positivity": "effect-green"
+            })
+
+        # Only add lifestyle experience if the trait actually has that effect
+        if cols[2].text.strip():
+            table_traits[-1]["effects"].append({
+                "effected_attr": f"Monthly {current_attr} Lifestyle "
+                                 f"Experience",
+                "effect_magnitude": cols[2].text.strip().replace("−", "-"),
+                "positivity": "effect-green"
+            })
+
+    return table_traits
+
+
+# Handle trait tables where the effects are in the headings
+def heading_effects(traits_table):
+    useless_headings = [r"Trait_", r"^Curable$", r"^Congenital$", r"^Cost$",
+                        r"^Weight$", r"AI", r"^Wrong education$",
+                        r"^Description$"]
+
+    # Create regex for checking all useless headings
+    regex = "(" + ")|(".join(useless_headings) + ")"
+    heading_data = get_heading_data(traits_table)
+
+    rows = traits_table.find_all("tr")[1:]
+
+    icon_index = heading_data.index("Trait_0")
+    name_index = heading_data.index("Trait_1")
+
+    description_index = None
+    if "Description" in heading_data:
+        description_index = heading_data.index("Description")
+
+    table_traits = []
+
+    for tr in rows:
+        cols = tr.find_all("td")
+        icon = cols[icon_index].find_next("img")
+
+        current_trait = {
+            "name": cols[name_index].text.strip(),
+            "icon": "https://ck3.paradoxwikis.com" + icon["src"],
+            "effects": []
+        }
+
+        if description_index:
+            current_trait["description"] = cols[description_index].text.strip()
+
+        for i, h in enumerate(heading_data):
+            if re.match(regex, h) or cols[i].text.strip() == "0":
+                continue
+
+            pos = cols[i].find_all("span")
+
+            current_trait["effects"].append({
+                "effected_attr": h,
+                "effect_magnitude": cols[i].text.strip().replace("−", "-"),
+                "positivity": pos[0]["class"][0].strip() if pos else ""
+            })
+
+        table_traits.append(current_trait)
+
+    return table_traits
+
+
+# Handles weirdly-formatted descendant traits table(s)
+def descendant_traits(traits_table):
+    heading_data = get_heading_data(traits_table)
+
+    # Find important indices
+    icon_index = [i for i, w in enumerate(heading_data) if "trait_0" in
+                     w.lower()][0]
+    name_index = [i for i, w in enumerate(heading_data) if "trait_1" in
+                     w.lower()][0]
+    effects_index = [i for i, w in enumerate(heading_data) if "effect" in
+                     w.lower()][0]
+
+    table_traits = []
+    rows = traits_table.find_all('tr')[1:]
+
+    # Need to zip properties and descriptions together as they are in
+    # separate tables for some reason
+    for tr in rows:
+        cols = tr.find_all('td')
+        trait_data = [cols[:3], cols[4:]]
+
+        for trait in trait_data:
+            # Handle instances like compassionate, where a trait has rowspan=2
+            if len(trait) == 0:
+                continue
+
+            icon = trait[icon_index].find_next('img')
+
+            table_traits.append({
+                "name": trait[name_index].text.strip(),
+                "icon": "https://ck3.paradoxwikis.com" + icon['src'],
+                "effects": parse_effects(trait[effects_index])
+            })
+
+    return table_traits
+
+
 traits = []
 
-traits.extend(personality_traits(PERSONALITY))
 for t_name in NORMALS:
     table_title = SOUP.find(id=t_name)
     table = table_title.find_next("tbody")
     traits.extend(regular_table(table))
 
-print(json.dumps(traits, indent=4))
+for t_name in HEADING_EFFECTS:
+    table_title = SOUP.find(id=t_name)
+    table = table_title.find_next("tbody")
+    traits.extend(heading_effects(table))
+
+traits.extend(personality_traits(PERSONALITY))
+traits.extend(leveled_congenital(LEVELED_CONGEN))
+traits.extend(leveled_lifestyle(LIFE))
+traits.extend(education_traits(EDUCATION))
+traits.extend(descendant_traits(DESCENDANTS))
+
+with open("traits.json", 'w') as f:
+    json.dump(traits, f, indent=4)
