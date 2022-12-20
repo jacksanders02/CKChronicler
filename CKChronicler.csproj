@@ -9,6 +9,9 @@
 
     <ItemGroup>
       <None Remove="Fonts\Missale AS Lunea.otf" />
+      <None Update="traits.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>

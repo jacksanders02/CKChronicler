@@ -14,12 +14,7 @@
 //   You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace CKChronicler
@@ -30,6 +25,7 @@ namespace CKChronicler
     
     public partial class App : Application
     {
-        public static Character CurrentChar = new Character();
+        public static readonly Character CurrentChar = new();
+        public static readonly List<TraitsLoader.Trait> AllTraits = TraitsLoader.LoadAllTraits();
     }
 }
