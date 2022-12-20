@@ -3211,7 +3211,7 @@
     },
     {
         "name": "Ill",
-        "icon": "https://ck3.paradoxwikis.com/images/9/91",
+        "icon": "https://ck3.paradoxwikis.com/images/9/91/Trait_ill.png",
         "effects": [
             {
                 "effected_attr": "Prowess",

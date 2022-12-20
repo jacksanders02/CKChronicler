@@ -116,7 +116,8 @@ def regular_table(traits_table):
             elif td.text:
                 row_data.append(td.text.strip())
             elif img := td.find_next('img'):
-                icon_name = img['src'].rsplit("/", 1)[0].replace("/thumb", "")
+                icon = img['src']
+                icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "") if "/thumb" in icon else icon
                 row_data.append("https://ck3.paradoxwikis.com" + icon_name)
             else:
                 row_data.append("")
@@ -164,7 +165,7 @@ def personality_traits(personality_table):
                 continue
 
             icon = desc[icon_index].find_next('img')['src']
-            icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "")
+            icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "") if "/thumb" in icon else icon
 
             table_traits.append({
                 "name": desc[name_index].text.strip(),
@@ -187,7 +188,7 @@ def leveled_congenital(traits_table):
         for td in cols:
             other_name = td.find_all("div")
             icon = td.find_next("img")['src']
-            icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "")
+            icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "") if "/thumb" in icon else icon
             table_traits.append({
                 "name": td["id"] + (f" / {other_name[0]['id']}" if other_name
                                     else ""),
@@ -208,7 +209,7 @@ def leveled_lifestyle(traits_table):
         cols = row.find_all("td")
         # Skip trait group
         icon = cols[0].find_next("img")['src']
-        icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "")
+        icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "") if "/thumb" in icon else icon
 
         for td in cols[2:]:
             list_items = td.find_all("li")
@@ -241,7 +242,7 @@ def education_traits(traits_table):
             cols = cols[1:]
 
         icon = cols[0].find_next("img")['src']
-        icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "")
+        icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "") if "/thumb" in icon else icon
 
         table_traits.append({
             "name": cols[0].text.strip(),
@@ -295,7 +296,7 @@ def heading_effects(traits_table):
     for tr in rows:
         cols = tr.find_all("td")
         icon = cols[icon_index].find_next("img")['src']
-        icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "")
+        icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "") if "/thumb" in icon else icon
 
         current_trait = {
             "name": cols[name_index].text.strip(),
@@ -350,7 +351,7 @@ def descendant_traits(traits_table):
                 continue
 
             icon = trait[icon_index].find_next('img')['src']
-            icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "")
+            icon_name = icon.rsplit("/", 1)[0].replace("/thumb", "") if "/thumb" in icon else icon
 
             table_traits.append({
                 "name": trait[name_index].text.strip(),
