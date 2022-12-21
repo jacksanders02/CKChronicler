@@ -21,6 +21,9 @@ public class Save
         _saveName = name;
         _characters = new Dictionary<int, Character>();
         Directory.CreateDirectory(GetDirectory());  // Create save location
+
+        string[] saveInfo = new[] { _saveName };
+        File.WriteAllLines(GetDirectory() + "/save.info", saveInfo);
     }
 
     public int AddCharacter()
