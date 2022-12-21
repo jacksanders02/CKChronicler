@@ -57,4 +57,8 @@
       <None Remove="Resources\Images\loading.gif" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="protobuf-net" Version="3.1.26" />
+    </ItemGroup>
+
 </Project>
