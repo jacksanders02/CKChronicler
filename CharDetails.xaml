@@ -49,7 +49,86 @@
                        FontSize="24" FontWeight="Bold" FontFamily="{StaticResource Bellefair}" Text="Culture:" Foreground="#829BA5" />
             <TextBox x:Name="CharCulture" Grid.Row="5" Grid.Column="1" TextChanged="UpdateCharPreviewText" FontSize="20" />
             
-            <Frame Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Source="Attributes.xaml"></Frame>
+            <Grid Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
+                           FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Diplomacy:" Foreground="#829BA5" />
+                <Grid Grid.Row="0" Grid.Column="1" Height="28">
+                    <TextBox x:Name="Diplo" VerticalContentAlignment="Center" MaxLength="3"
+                             FontSize="18" FontFamily="{StaticResource Bellefair}"
+                             PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted" />
+                    <Image Margin="0,0,5,0" 
+                           Source="Resources/Images/attributes/diplomacy.png" 
+                           HorizontalAlignment="Right"/>
+                </Grid>
+                
+                <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0" 
+                           FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Martial:" Foreground="#829BA5" />
+                <Grid Grid.Row="1" Grid.Column="1" Height="28">
+                    <TextBox x:Name="Martial" VerticalContentAlignment="Center" MaxLength="3"
+                             FontSize="18" FontFamily="{StaticResource Bellefair}"
+                             PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted" />
+                    <Image Margin="0,0,5,0" 
+                           Source="Resources/Images/attributes/martial.png" 
+                           HorizontalAlignment="Right"/>
+                </Grid>
+                
+                <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                           FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Stewardship:" Foreground="#829BA5" />
+                <Grid Grid.Row="2" Grid.Column="1" Height="28">
+                    <TextBox x:Name="Steward" VerticalContentAlignment="Center" MaxLength="3"
+                             FontSize="18" FontFamily="{StaticResource Bellefair}"
+                             PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted" />
+                    <Image Margin="0,0,5,0" 
+                           Source="Resources/Images/attributes/stewardship.png" 
+                           HorizontalAlignment="Right"/>
+                </Grid>
+                
+                <TextBlock Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                           FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Intrigue:" Foreground="#829BA5" />
+                <Grid Grid.Row="0" Grid.Column="3" Height="28">
+                    <TextBox x:Name="Intrigue" VerticalContentAlignment="Center" MaxLength="3"
+                             FontSize="18" FontFamily="{StaticResource Bellefair}"
+                             PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted" />
+                    <Image Margin="0,0,5,0" 
+                           Source="Resources/Images/attributes/intrigue.png" 
+                           HorizontalAlignment="Right"/>
+                </Grid>
+                
+                <TextBlock Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                           FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Learning:" Foreground="#829BA5" />
+                <Grid Grid.Row="1" Grid.Column="3" Height="28">
+                    <TextBox x:Name="Learning" VerticalContentAlignment="Center" MaxLength="3"
+                             FontSize="18" FontFamily="{StaticResource Bellefair}"
+                             PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted" />
+                    <Image Margin="0,0,5,0" 
+                           Source="Resources/Images/attributes/learning.png" 
+                           HorizontalAlignment="Right"/>
+                </Grid>
+                
+                <TextBlock Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" TextAlignment="Right" Padding="0 0 10 0"
+                           FontSize="21" FontFamily="{StaticResource Bellefair}" Text="Prowess:" Foreground="#829BA5" />
+                <Grid Grid.Row="2" Grid.Column="3" Height="28">
+                    <TextBox x:Name="Prowess" VerticalContentAlignment="Center" MaxLength="3"
+                             FontSize="18" FontFamily="{StaticResource Bellefair}"
+                             PreviewTextInput="IsNumberInput" DataObject.Pasting="IsNumberPasted" />
+                    <Image Margin="0,0,5,0" 
+                           Source="Resources/Images/attributes/prowess.png" 
+                           HorizontalAlignment="Right"/>
+                </Grid>
+            </Grid>
             
             
             <TextBlock x:Name="CharPreview" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" TextWrapping="Wrap" TextAlignment="Center" 

@@ -14,6 +14,7 @@
 //   You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 using System.Windows;
+using System.Windows.Controls;
 
 namespace CKChronicler
 {
@@ -25,6 +26,7 @@ namespace CKChronicler
         public MainWindow()
         {
             InitializeComponent();
+            App.AppWindow = this;
         }
 
         public void ShowMainMenu()
@@ -37,10 +39,9 @@ namespace CKChronicler
             Main.Content = new CreateSave(this);
         }
 
-        public void ShowInitialCharPage()
-        { 
-            int firstChar = App.LoadedSave.AddCharacter();
-            Main.Content = new CreationPage(this, firstChar, "Initial Ruler");
+        public void SetContent(Page p)
+        {
+            Main.Content = p;
         }
     }
 }

@@ -14,50 +14,60 @@
 //   You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-using System;
+using System.Diagnostics;
+using ProtoBuf;
 
 namespace CKChronicler;
 
-[Serializable]
+[ProtoContract]
 public class Character
 {
     // NAMING
-    private string _rank = "";
-    private string _name = "";
-    private string _dynasty = "";
-    private string _pTitle = "";
+    [ProtoMember(1)]
+    public string Rank { get; set; } = "";
+    [ProtoMember(2)]
+    public string Name { get; set; } = "";
+    [ProtoMember(3)]
+    public string Dynasty { get; set; } = "";
+    [ProtoMember(4)]
+    public string PTitle { get; set; } = "";
+
+    // STUFF
+    [ProtoMember(5)]
+    public string Religion { get; set; } = "";
+    [ProtoMember(6)]
+    public string Culture { get; set; } = "";
 
     // ATTRIBUTES
-    private int _diplo = 0;
-    private int _martial = 0;
-    private int _steward = 0;
-    private int _intrigue = 0;
-    private int _learning = 0;
-    private int _prowess = 0;
-
-    public void SetRank(string r)
-    {
-        _rank = r;
-    }
-
-    public void SetName(string n)
-    {
-        _name = n;
-    }
-
-    public void SetPTitle(string pt)
-    {
-        _pTitle = pt;
-    }
-    
-    public void SetDynasty(string d) {
-        _dynasty = d;
-    }
+    [ProtoMember(7)]
+    public int Diplo { get; set; } = 0;
+    [ProtoMember(8)]
+    public int Martial { get; set; } = 0;
+    [ProtoMember(9)]
+    public int Steward { get; set; } = 0;
+    [ProtoMember(10)]
+    public int Intrigue { get; set; } = 0;
+    [ProtoMember(11)]
+    public int Learning { get; set; } = 0;
+    [ProtoMember(12)]
+    public int Prowess { get; set; } = 0;
 
     public string GetFullTitle() {
-        string nameSpacing = _rank.Length > 0 && _name.Length > 0  ? " " : "";
-        string dynSpacing = (_rank.Length > 0 || _name.Length > 0) && _dynasty.Length > 0 ? " " : "";
-        string titleSpacing = (_rank.Length > 0 || _name.Length > 0 || _dynasty.Length > 0) && _pTitle.Length > 0 ? " of\x00A0" : "";
-        return $"{_rank}{nameSpacing}{_name}{dynSpacing}{_dynasty}{titleSpacing}{_pTitle}";
+        string nameSpacing = Rank.Length > 0 && Name.Length > 0  ? " " : "";
+        string dynSpacing = (Rank.Length > 0 || Name.Length > 0) && Dynasty.Length > 0 ? " " : "";
+        string titleSpacing = (Rank.Length > 0 || Name.Length > 0 || Dynasty.Length > 0) && PTitle.Length > 0 ? " of\x00A0" : "";
+        return $"{Rank}{nameSpacing}{Name}{dynSpacing}{Dynasty}{titleSpacing}{PTitle}";
+    }
+
+    public void TraceAllAttributes()
+    {
+        Trace.WriteLine(GetFullTitle());
+        Trace.WriteLine(Religion + " / " + Culture);
+        Trace.WriteLine("Diplomacy: " + Diplo);
+        Trace.WriteLine("Martial: " + Martial);
+        Trace.WriteLine("Stewardship: " + Steward);
+        Trace.WriteLine("Intrigue: " + Intrigue);
+        Trace.WriteLine("Learning: " + Learning);
+        Trace.WriteLine("Prowess: " + Prowess);
     }
 }

@@ -27,15 +27,17 @@ public partial class CreationPage : Page {
 
     private readonly CharDetails _charDetails;
     private readonly TraitEditor _traitEditor;
-    private readonly MainWindow _returnTo;
+    private readonly Page _prevPage;
+    private readonly Page _nextPage;
     
-    public CreationPage(MainWindow pw, int charID, string title)
+    public CreationPage(int charID, string title, Page prevPage, Page nextPage)
     {
         _charID = charID;
         _currentButton = "DetailsButton";
         _charDetails = new CharDetails(charID);
         _traitEditor = new TraitEditor();
-        _returnTo = pw;
+        _prevPage = prevPage;
+        _nextPage = nextPage;
         InitializeComponent();
 
         BannerText.Text = title;
@@ -75,7 +77,21 @@ public partial class CreationPage : Page {
 
     private void ReturnButton_OnClick(object sender, RoutedEventArgs e)
     {
-        App.LoadedSave.Delete();
-        _returnTo.ShowCreatePage();
+        // Delete current save if this returns to save creation (creating initial ruler)
+        if (_prevPage.GetType() == typeof(CreateSave)) 
+        {
+            App.LoadedSave.Delete();
+        }
+        App.AppWindow.SetContent(_prevPage);
+    }
+
+    private void NextButton_OnClick(object sender, RoutedEventArgs e)
+    {
+        _charDetails.SaveCharDetails();
+        App.LoadedSave.SaveCharacter(_charID);
+        App.AppWindow.SetContent(_nextPage);
+
+        // Test deserialisation
+        Save.LoadSave(App.LoadedSave.GetName())!.GetCharacter(_charID).TraceAllAttributes();
     }
 }

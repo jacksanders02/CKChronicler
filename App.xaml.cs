@@ -22,10 +22,12 @@ namespace CKChronicler
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    
+
     public partial class App : Application
     {
-        public static Save LoadedSave = new Save();
         public static readonly List<Trait> AllTraits = TraitsLoader.LoadAllTraits();
+
+        public static Save LoadedSave { get; set; } = new();
+        public static MainWindow AppWindow { get; set; } = null!;
     }
 }

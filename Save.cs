@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -17,6 +18,38 @@ public class Save
     private static string GetDirectory(string name)
     {
         return ".\\Saves\\" + DirSafeName(name);
+    }
+
+    private static Character loadChar(string saveName, int id)
+    {
+        Character c;
+        using (FileStream f = File.OpenRead($"{GetDirectory(saveName)}{CharacterSubdir}/{id}.ck3char"))
+        {
+            c = Serializer.Deserialize<Character>(f);
+        }
+        return c;
+    }
+
+    public static Save? LoadSave(string name)
+    {
+        string charLoc = GetDirectory(name) + CharacterSubdir;
+        
+        if (!Directory.Exists(charLoc))
+        {
+            return null;
+        }
+
+        DirectoryInfo d = new DirectoryInfo(charLoc);
+        FileInfo[] fi = d.GetFiles("*.ck3char");
+        Dictionary<int, Character> cs = new();
+
+        foreach (FileInfo f in fi)
+        {
+            int charID = int.Parse(f.Name.Replace(".ck3char", ""));
+            cs[charID] = loadChar(name, charID);
+        }
+
+        return new Save(name, cs);
     }
     
     private readonly Dictionary<int, Character> _characters;
@@ -40,6 +73,12 @@ public class Save
         File.WriteAllLines(GetDirectory(_saveName) + "/save.info", saveInfo);
     }
 
+    public Save(string name, Dictionary<int, Character> chars)
+    {
+        _saveName = name;
+        _characters = chars;
+    }
+
     public int AddCharacter()
     {
         int newID;
@@ -54,10 +93,11 @@ public class Save
         return newID;
     }
 
-    public void saveCharacter(int charID)
+    public void SaveCharacter(int charID)
     {
         var c = _characters[charID];
-        using (var f = File.Create($"{CharacterSubdir}/{charID}.ck3char"))
+        c.TraceAllAttributes();
+        using (var f = File.Create($"{GetDirectory(_saveName)}{CharacterSubdir}/{charID}.ck3char"))
         {
             Serializer.Serialize(f, c);
         }

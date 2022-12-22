@@ -21,6 +21,8 @@ public partial class CreateSave : Page
     {
         string saveName = SaveNameBox.Text;
         App.LoadedSave = new Save(saveName);
-        _parentWindow.ShowInitialCharPage();
+        
+        int firstChar = App.LoadedSave.AddCharacter();
+        App.AppWindow.SetContent(new CreationPage(firstChar, "Initial Ruler", this, new MainMenu()));
     }
 }

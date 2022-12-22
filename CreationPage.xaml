@@ -32,6 +32,11 @@
                    Foreground="White" Background="{StaticResource Banner}"
                    FontSize="48" FontFamily="{StaticResource MissaleASLunea}" />
         
+        <Button Grid.Column="3" Height="35" Width="90" Style="{StaticResource MainButton}"
+                Click="NextButton_OnClick">
+            <TextBlock Text="Next &gt;" FontSize="14"></TextBlock>
+        </Button>
+        
         <Button x:Name="DetailsButton" Style="{StaticResource TabButton}" Grid.Row="1" Grid.Column="1" Margin="0 0 0 -1"
                 Click="TabButton_OnClick">
             <TextBlock x:Name="DetailsButtonLabel" FontFamily="{StaticResource MissaleASLunea}" FontSize="16"
